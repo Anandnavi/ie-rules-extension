@@ -1,0 +1,91 @@
+{
+  "task": "prepare java selenium study plan ,iam a software test engineer",
+  "cwd": "C:\\Users\\ananda.n\\Desktop\\Arjun\\My Project\\IE_Rules_Extension",
+  "verifyCmd": "npm run test",
+  "verifyLabel": "npm run test",
+  "verifyKind": "script",
+  "verifyCwd": "C:\\Users\\ananda.n\\Desktop\\Arjun\\My Project\\IE_Rules_Extension",
+  "fullCmd": null,
+  "fullLabel": null,
+  "timeoutMs": 60000,
+  "scope": {
+    "declared": [],
+    "strict": true
+  },
+  "budget": {
+    "maxTurns": 50,
+    "maxConsecutiveFails": 2,
+    "deEscalateAfter": 3,
+    "absMaxTurns": 60,
+    "softBudgetPct": 0.65,
+    "maxExtensions": 2,
+    "softAsked": false,
+    "pendingEstimate": null,
+    "estBias": null
+  },
+  "budgetWarnings": [],
+  "autoCommit": true,
+  "ladder": {
+    "thinkingStart": "low",
+    "thinkingEscalated": "high",
+    "escalated": false
+  },
+  "planning": {
+    "thinkLevel": null,
+    "editLevel": null,
+    "done": false
+  },
+  "plan": {
+    "goal": "",
+    "anchors": "",
+    "tasks": [],
+    "risky": false,
+    "gate2": null,
+    "progress": {
+      "done": 0,
+      "total": 0,
+      "remaining": 0,
+      "current": null
+    }
+  },
+  "stage": "planning",
+  "persona": {
+    "domain": null
+  },
+  "lane": "M",
+  "laneForced": false,
+  "verifyTier": "standard",
+  "stats": {
+    "calls": 1,
+    "tokensIn": 0,
+    "tokensCached": 0,
+    "tokensOut": 0,
+    "gateRuns": 0,
+    "gateFails": 0,
+    "blockedEdits": 0,
+    "consecutiveFails": 0,
+    "consecutivePasses": 0,
+    "extensionCount": 0,
+    "warned50": false,
+    "knownFiles": [],
+    "peakTurnCost": 0,
+    "turns": 1,
+    "cost": 0
+  },
+  "baseline": {
+    "ok": true,
+    "head": "> epiplex-ie-rules-generator@1.0.0 test\n> npm run build && node tests/run-tests.mjs\n> epiplex-ie-rules-generator@1.0.0 build\n... (1 more lines)\n==================================================\nPASSED: 137   FAILED: 0\nAll tests passed ✓"
+  },
+  "baselineFull": null,
+  "estRemaining": null,
+  "resumeCount": 0,
+  "prevThinking": "high",
+  "status": "done",
+  "startedAt": "2026-08-16T14:40:57.474Z",
+  "endedAt": "2026-08-16T14:42:13.058Z",
+  "autoCommitResult": {
+    "committed": false,
+    "reason": "no scoped files",
+    "leftover": []
+  }
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Salesforce Lightning example — Epiplex IE Rules Generator test page</title>
+  <!--
+    Example page for the Epiplex IE Rules Generator.
+    Salesforce Lightning Design System (SLDS) components: slds-input,
+    slds-select, slds-checkbox, slds-radio, slds-button, slds-tabs,
+    slds-combobox and slds-datepicker.
+  -->
+</head>
+<body class="slds">
+  <div class="slds-scope">
+    <h1 class="slds-text-heading_medium">Lead capture</h1>
+
+    <div class="slds-form-element">
+      <label class="slds-form-element__label" for="firstName">First name</label>
+      <div class="slds-form-element__control">
+        <input type="text" id="firstName" class="slds-input" placeholder="First name" />
+      </div>
+    </div>
+
+    <div class="slds-form-element">
+      <label class="slds-form-element__label" for="email">Email</label>
+      <div class="slds-form-element__control">
+        <input type="email" id="email" class="slds-input" />
+      </div>
+    </div>
+
+    <div class="slds-form-element">
+      <label class="slds-form-element__label" for="industry">Industry</label>
+      <div class="slds-form-element__control">
+        <select id="industry" class="slds-select">
+          <option>Technology</option>
+          <option>Finance</option>
+          <option>Healthcare</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="slds-form-element">
+      <label class="slds-form-element__label" for="closeDate">Close date</label>
+      <div class="slds-form-element__control">
+        <div class="slds-datepicker_container">
+          <input type="text" id="closeDate" class="slds-input slds-datepicker" />
+          <lightning-icon class="slds-input__icon" icon-name="utility:date" title="Calendar"></lightning-icon>
+        </div>
+      </div>
+    </div>
+
+    <div class="slds-form-element">
+      <span class="slds-checkbox">
+        <input type="checkbox" name="optIn" id="optIn" />
+        <label class="slds-checkbox__label" for="optIn">
+          <span class="slds-checkbox_faux"></span>
+          <span class="slds-form-element__label">Email opt-in</span>
+        </label>
+      </span>
+    </div>
+
+    <div class="slds-form-element">
+      <span class="slds-radio">
+        <input type="radio" name="priority" id="prioHigh" value="high" />
+        <label class="slds-radio__label" for="prioHigh">
+          <span class="slds-radio_faux"></span>
+          <span class="slds-form-element__label">High priority</span>
+        </label>
+      </span>
+      <span class="slds-radio">
+        <input type="radio" name="priority" id="prioLow" value="low" />
+        <label class="slds-radio__label" for="prioLow">
+          <span class="slds-radio_faux"></span>
+          <span class="slds-form-element__label">Low priority</span>
+        </label>
+      </span>
+    </div>
+
+    <!-- slds-combobox (searchable dropdown) -->
+    <div class="slds-form-element">
+      <label class="slds-form-element__label" for="owner">Owner</label>
+      <div class="slds-combobox_container">
+        <div class="slds-combobox slds-dropdown-trigger slds-dropdown-trigger_click" role="combobox" aria-haspopup="listbox">
+          <div class="slds-combobox__form-element slds-input-has-icon slds-input-has-icon_right">
+            <input id="owner" type="text" class="slds-input slds-combobox__input" role="textbox" placeholder="Search people…" aria-autocomplete="list" />
+          </div>
+          <div class="slds-dropdown slds-dropdown_length-5" role="listbox">
+            <ul class="slds-listbox slds-listbox_vertical">
+              <li class="slds-listbox__item"><div class="slds-media" role="option">Ada Lovelace</div></li>
+              <li class="slds-listbox__item"><div class="slds-media" role="option">Grace Hopper</div></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tabs -->
+    <div class="slds-tabs_default">
+      <ul class="slds-tabs_default__nav" role="tablist">
+        <li class="slds-tabs_default__item slds-is-active" role="presentation">
+          <a class="slds-tabs_default__link" role="tab" aria-selected="true">Overview</a>
+        </li>
+        <li class="slds-tabs_default__item" role="presentation">
+          <a class="slds-tabs_default__link" role="tab" aria-selected="false">Activity</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Buttons -->
+    <div class="slds-m-top_medium">
+      <button class="slds-button slds-button_brand" id="btnSaveLead">Save lead</button>
+      <lightning-button label="Cancel" class="slds-button slds-button_neutral" id="btnCancel"></lightning-button>
+    </div>
+
+    <!-- Data table -->
+    <table class="slds-table slds-table_bordered">
+      <thead><tr><th scope="col">Name</th><th scope="col">Status</th></tr></thead>
+      <tbody>
+        <tr><td>Acme Corp</td><td>Open</td></tr>
+        <tr><td>Globex</td><td>Contacted</td></tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

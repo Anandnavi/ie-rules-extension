@@ -1,0 +1,26 @@
+{
+  "name": "epiplex-ie-rules-generator",
+  "version": "1.0.0",
+  "description": "Chrome/Edge MV3 extension that scans web pages and generates IEAdaptor.xml rules for Epiplex Capture / NetOn.",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "build:watch": "node build.mjs --watch",
+    "icons": "node scripts/generate-icons.mjs",
+    "test": "npm run build && node tests/run-tests.mjs",
+    "lint": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@esbuild/win32-x64": "^0.28.2",
+    "@types/chrome": "^0.2.6",
+    "esbuild": "^0.28.0",
+    "jsdom": "^25.0.0",
+    "typescript": "^5.6.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}

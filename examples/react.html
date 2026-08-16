@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>React example — Epiplex IE Rules Generator test page</title>
+  <!--
+    Example page for the Epiplex IE Rules Generator.
+    React applications render widgets like react-select and
+    react-combobox-view; the extension detects them via class names and
+    generates dropdown (46) / option (34) rules.
+  -->
+</head>
+<body>
+  <div id="root" data-reactroot="">
+    <main>
+      <h1>Project settings</h1>
+
+      <!-- React Select (combobox) -->
+      <label htmlFor="project">Project</label>
+      <div class="react-select">
+        <div class="react-select__control" role="combobox" aria-haspopup="listbox" aria-expanded="false">
+          <div class="react-select__value-container">
+            <div class="react-select__single-value">Apollo</div>
+          </div>
+          <div class="react-select__indicators">
+            <div class="react-select__indicator react-select__dropdown-indicator">▾</div>
+          </div>
+        </div>
+        <div class="react-select__menu">
+          <div class="react-select__option react-select__option--is-selected" role="option">Apollo</div>
+          <div class="react-select__option" role="option">Gemini</div>
+          <div class="react-select__option" role="option">Orion</div>
+        </div>
+        <select class="react-select__hidden-input" tabindex="-1" style="display:none" aria-hidden="true">
+          <option>Apollo</option>
+        </select>
+      </div>
+
+      <!-- React combobox view -->
+      <label htmlFor="region">Region</label>
+      <div class="react-combobox-view" aria-expanded="false">
+        <input class="react-combobox-input" id="region" type="text" placeholder="Select region" />
+        <div class="react-combobox-popover">
+          <div class="react-combobox-option" role="option">North America</div>
+          <div class="react-combobox-option" role="option">Europe</div>
+        </div>
+      </div>
+
+      <!-- React datepicker -->
+      <label htmlFor="dueDate">Due date</label>
+      <div class="react-datepicker-wrapper">
+        <div class="react-datepicker__input-container">
+          <input id="dueDate" type="text" class="react-datepicker-ignore-onclickoutside" placeholder="MM/DD/YYYY" />
+        </div>
+      </div>
+
+      <!-- Native controls in a React app -->
+      <div>
+        <label for="budget">Budget ($)</label>
+        <input id="budget" name="budget" type="number" step="100" />
+      </div>
+      <div>
+        <label for="notes">Notes</label>
+        <textarea id="notes" name="notes" rows="3"></textarea>
+      </div>
+      <div class="form-group">
+        <label class="form-check-label">
+          <input class="form-check-input" type="checkbox" name="notify" />
+          Notify stakeholders
+        </label>
+      </div>
+      <div class="form-group">
+        <label><input type="radio" name="priority" value="low" /> Low</label>
+        <label><input type="radio" name="priority" value="high" /> High</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Save settings</button>
+      <a href="/reports" class="nav-link">View reports</a>
+    </main>
+  </div>
+</body>
+</html>

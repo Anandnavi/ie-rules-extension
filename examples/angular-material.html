@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="ng-version" content="17.3.1" />
+  <title>Angular Material example — Epiplex IE Rules Generator test page</title>
+  <!--
+    Example page for the Epiplex IE Rules Generator.
+    Open it in Chrome/Edge, run the extension, and inspect how Angular
+    Material components are detected: mat-form-field → traversal to input,
+    mat-select → Dropdown (46), mat-option → List item (34), etc.
+  -->
+</head>
+<body>
+  <h1>Employee onboarding</h1>
+  <form novalidate>
+    <!-- Text box inside mat-form-field (traversal rule: mat-form-field → CH input) -->
+    <mat-form-field class="mat-form-field example-full-width">
+      <mat-label>Full name</mat-label>
+      <input matInput placeholder="Jane Doe" id="fullName" type="text" aria-label="Full name" />
+    </mat-form-field>
+
+    <!-- Email input -->
+    <mat-form-field class="mat-form-field">
+      <mat-label>Work email</mat-label>
+      <input matInput id="email" type="email" placeholder="name@company.com" />
+    </mat-form-field>
+
+    <!-- Native select wrapped in mat-form-field -->
+    <mat-form-field class="mat-form-field">
+      <mat-label>Department</mat-label>
+      <mat-select id="department" class="mat-select">
+        <mat-option value="eng" class="mat-option">Engineering</mat-option>
+        <mat-option value="sales" class="mat-option">Sales</mat-option>
+        <mat-option value="hr" class="mat-option">Human Resources</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <!-- Date picker -->
+    <mat-form-field class="mat-form-field">
+      <mat-label>Start date</mat-label>
+      <input matInput id="startDate" type="text" class="mat-datepicker-input" [matDatepicker]="picker" />
+      <mat-datepicker-toggle class="mat-datepicker-toggle" [for]="picker">
+        <mat-icon class="mat-icon">calendar_today</mat-icon>
+      </mat-datepicker-toggle>
+      <mat-datepicker #picker class="mat-datepicker"></mat-datepicker>
+    </mat-form-field>
+
+    <!-- Checkbox -->
+    <mat-checkbox id="agree" class="mat-checkbox" aria-label="I agree to the terms">
+      <span class="mat-checkbox-layout">
+        <span class="mat-checkbox-inner-container">
+          <input type="checkbox" class="mat-checkbox-input" />
+        </span>
+        <span class="mat-checkbox-label">I agree to the terms</span>
+      </span>
+    </mat-checkbox>
+
+    <!-- Slide toggle (switch) -->
+    <mat-slide-toggle id="newsletter" class="mat-slide-toggle">
+      <span class="mat-slide-toggle-bar">
+        <span class="mat-slide-toggle-thumb-container">
+          <span class="mat-slide-toggle-thumb"></span>
+          <input type="checkbox" class="mat-slide-toggle-input" />
+        </span>
+      </span>
+      <span class="mat-slide-toggle-content">Subscribe to newsletter</span>
+    </mat-slide-toggle>
+
+    <!-- Radio group -->
+    <mat-radio-group id="shift" class="mat-radio-group" aria-label="Shift">
+      <mat-radio-button class="mat-radio-button" value="day">
+        <span class="mat-radio-label"><span class="mat-radio-container"><input type="radio" class="mat-radio-input" /></span> Day</span>
+      </mat-radio-button>
+      <mat-radio-button class="mat-radio-button" value="night">
+        <span class="mat-radio-label"><span class="mat-radio-container"><input type="radio" class="mat-radio-input" /></span> Night</span>
+      </mat-radio-button>
+    </mat-radio-group>
+
+    <!-- Buttons -->
+    <div class="actions">
+      <button mat-raised-button class="mat-raised-button" id="btnSave">Save</button>
+      <button mat-button class="mat-button" id="btnCancel">Cancel</button>
+    </div>
+
+    <!-- Tabs -->
+    <mat-tab-group class="mat-tab-group">
+      <mat-tab label="Personal">
+        <div class="mat-tab-label"><span>Personal</span></div>
+        <p>Personal details go here.</p>
+      </mat-tab>
+      <mat-tab label="Benefits">
+        <div class="mat-tab-label"><span>Benefits</span></div>
+        <p>Benefits details go here.</p>
+      </mat-tab>
+    </mat-tab-group>
+
+    <!-- Table -->
+    <table class="mat-table">
+      <tr><th>Item</th><th>Amount</th></tr>
+      <tr><td>Laptop</td><td>1200</td></tr>
+      <tr><td>Monitor</td><td>400</td></tr>
+    </table>
+  </form>
+</body>
+</html>

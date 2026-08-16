@@ -1,0 +1,121 @@
+{
+  "records": [
+    {
+      "ts": 1786783212344,
+      "task": "# Prompt: Build an Epiplex IE Rules Generator browser extension Build a producti",
+      "status": "stopped",
+      "calls": 50,
+      "cost": 0,
+      "cacheHitPct": 96,
+      "turns": 50,
+      "gateRuns": 0,
+      "gateFails": 0,
+      "stage": "development",
+      "resumed": 0
+    },
+    {
+      "ts": 1786783279735,
+      "task": "# Prompt: Build an Epiplex IE Rules Generator browser extension Build a producti",
+      "status": "stopped",
+      "calls": 60,
+      "cost": 0,
+      "cacheHitPct": 97,
+      "turns": 60,
+      "gateRuns": 0,
+      "gateFails": 0,
+      "stage": "development",
+      "resumed": 1
+    },
+    {
+      "ts": 1786783744950,
+      "task": "# Prompt: Build an Epiplex IE Rules Generator browser extension Build a producti",
+      "status": "done",
+      "calls": 108,
+      "cost": 0,
+      "cacheHitPct": 98,
+      "turns": 108,
+      "gateRuns": 0,
+      "gateFails": 0,
+      "stage": "development",
+      "resumed": 2
+    },
+    {
+      "ts": 1786784008878,
+      "task": "fix this Failed to load extension File ~\\Desktop\\Arjun\\My Project\\IE_Rules_Exten",
+      "status": "done",
+      "calls": 7,
+      "cost": 0,
+      "cacheHitPct": 99,
+      "turns": 7,
+      "gateRuns": 3,
+      "gateFails": 0,
+      "stage": "development",
+      "resumed": 0
+    },
+    {
+      "ts": 1786784233191,
+      "task": "how to use above extension please give instructions",
+      "status": "done",
+      "calls": 1,
+      "cost": 0,
+      "cacheHitPct": 98,
+      "turns": 1,
+      "gateRuns": 0,
+      "gateFails": 0,
+      "stage": "planning",
+      "resumed": 0
+    },
+    {
+      "ts": 1786789589453,
+      "task": "IEAdaptor.xml is a working rules file - failing when we click chat gpt logo. so ",
+      "status": "done",
+      "calls": 23,
+      "cost": 0,
+      "cacheHitPct": 94,
+      "turns": 23,
+      "gateRuns": 12,
+      "gateFails": 0,
+      "stage": "development",
+      "resumed": 0
+    },
+    {
+      "ts": 1786789969900,
+      "task": "read IEAdaptor.xml - this is working file for your reference. Read check extensi",
+      "status": "done",
+      "calls": 26,
+      "cost": 0,
+      "cacheHitPct": 98,
+      "turns": 26,
+      "gateRuns": 10,
+      "gateFails": 0,
+      "stage": "development",
+      "resumed": 0
+    },
+    {
+      "ts": 1786790730626,
+      "task": "for logo and icon rule working fine but its effecting other contrlos like links ",
+      "status": "done",
+      "calls": 15,
+      "cost": 0,
+      "cacheHitPct": 98,
+      "turns": 15,
+      "gateRuns": 9,
+      "gateFails": 2,
+      "stage": "development",
+      "resumed": 0
+    },
+    {
+      "ts": 1786891333060,
+      "task": "prepare java selenium study plan ,iam a software test engineer",
+      "status": "done",
+      "calls": 1,
+      "cost": 0,
+      "cacheHitPct": 0,
+      "turns": 1,
+      "gateRuns": 0,
+      "gateFails": 0,
+      "stage": "planning",
+      "resumed": 0
+    }
+  ]
+}

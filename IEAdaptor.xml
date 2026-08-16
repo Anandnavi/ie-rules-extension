@@ -1,0 +1,4663 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IEFilters ExcludedDomain="">
+	<!-- ExcludedDomain="|www.google.com|www.yahoo.com|" -->
+	<General Enable="1" QueryHeader="0" QueryTag="H1">
+		<RoleIdentifier>
+			<BasedOnTags>
+				<Rule Enable="1" CurrentRole="34" ParentRole="46">
+					<CurrentInfo>
+						<Condition TagName="li"/>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="42" ParentRole="10">
+					<CurrentInfo>
+						<Condition TagName="|INPUT|" Type="|PASSWORD|TEXT|FILE|email|tel|NUMBER|COLOR|URL|SEARCH|text|">
+							<!-- NUMBER-https://www.gotbootstrap.com/themes/smartadmin/4.5.1/form_basic_inputs.html -->
+							<!-- COLOR-https://www.gotbootstrap.com/themes/smartadmin/4.5.1/form_basic_inputs.html -->
+							<!-- URL-https://seantheme.com/color-admin/admin/html/form_validation.html (website control) -->
+							<!-- Search- https://newaccount1603879306184.freshdesk.com/a/tickets/filters/all_tickets -->
+						</Condition>
+						<Condition TagName="|TEXTAREA|"/>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="92" ParentRole="10">
+					<CurrentInfo>
+						<Condition TagName="|INPUT|" Type="|DATE|MONTH|WEEK|datetime-local|TIME|"/>
+						<!--https://www.gotbootstrap.com/themes/smartadmin/4.5.1/form_basic_inputs.html-->
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="82" ParentRole="10">
+					<CurrentInfo>
+						<Condition TagName="|i|svg|mat-icon|"/>
+						<!-- seantheme.com -->
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="34" ParentRole="10">
+					<CurrentInfo>
+						<Condition TagName="|li|SELECT-LIST|SELECT|"/>
+						<!-- seantheme.com, SELECT- Bootstrap -->
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="29" ParentRole="10">
+					<CurrentInfo>
+						<Condition TagName="|TABLE|td|"/>
+						<!-- seantheme.com , https://www.gotbootstrap.com/themes/smartadmin/4.5.1/form_basic_inputs.html-->
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="28" ParentRole="10">
+					<CurrentInfo>
+						<Condition TagName="|tr|"/>
+						<!-- seantheme.com -->
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="46" ParentRole="10">
+					<CurrentInfo>
+						<Condition TagName="|mat-select|">
+							<!-- angular websites -->
+						</Condition>
+						<Condition TagName="|SELECT|" Type="|SELECT-ONE|"/>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="43" ParentRole="10">
+					<CurrentInfo>
+						<Condition TagName="|BUTTON-DEFAULT|MARK|lightning-primitive-icon|BUTTON|"/>
+						<Condition TagName="|BUTTON|INPUT|" Type="|RESET|SUBMIT|BUTTON|IMAGE|"/>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="44" ParentRole="10">
+					<CurrentInfo>
+						<Condition TagName="|INPUT|" Type="|CHECKBOX|"/>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="45" ParentRole="10">
+					<CurrentInfo>
+						<Condition TagName="|INPUT|" Type="|RADIO|"/>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="30" ParentRole="">
+					<CurrentInfo>
+						<Condition TagName="|A|AREA|"/>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="41" ParentRole="">
+					<CurrentInfo>
+						<Condition TagName="|ABBR|CAPTION|ACRONYM|ADDRESS|B|BASEFONT|BDO|BIG|BLOCKQUOTE|CENTER|CITE|CODE|DD|DEL|DFN|DIR|DIV|DT|EM|FONT|H1|H2|H3|H4|H5|H6|I|INS|KBD|LABEL|LEGEND|LI|LISTING|MENU|P|PRE|Q|S|SAMP|SMALL|SPAN|STRIKE|STRONG|SUB|SUP|TT|U|VAR|XMP|UL|DL|TD|"/>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="10" ParentRole="">
+					<CurrentInfo>
+						<Condition TagName="|FIELDSET|BODY|FORM|FRAMESET|HR|HTML|"/>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="3" ParentRole="">
+					<CurrentInfo>
+						<Condition TagName="|SCROLL BAR|"/>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="24" ParentRole="">
+					<CurrentInfo>
+						<Condition TagName="|TABLE|"/>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="37" ParentRole="">
+					<CurrentInfo>
+						<Condition TagName="|PGTAB|"/>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="12" ParentRole="">
+					<CurrentInfo>
+						<Condition TagName="|MENUITEM|"/>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="40" ParentRole="">
+					<CurrentInfo>
+						<Condition TagName="|IMG|"/>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="43" ParentRole="">
+					<CurrentInfo>
+						<Condition Operator="contains" className="|powerapps-icon|powerapps-icon no-focus-outline|">
+							<!-- picker -->
+							<!-- seantheme.com, angular websites, https://harvesthq.github.io/chosen,https://play.google.com/store/paymentmethods - - - menu-button,goog-menu-->
+						</Condition>
+					</CurrentInfo>
+				</Rule>
+			</BasedOnTags>
+			<BasedOnAttributes>
+				<Rule Enable="1" CurrentRole="46" ParentRole="">
+					<CurrentInfo>
+						<Condition Operator="contains" className="|select2-selection__rendered|pc-select|pc-list|mat-select-min-line|mat-select-arrow|mat-select-value|mat-select |menu-button|goog-menu|chosen-single|chosen-choices|upward dropdown|combobox|ui-dropdown|">
+							<!-- picker -->
+							<!-- seantheme.com, angular websites, https://harvesthq.github.io/chosen,https://play.google.com/store/paymentmethods - - - menu-button,goog-menu-->
+						</Condition>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="92" ParentRole="10">
+					<CurrentInfo>
+						<Condition Operator="contains" data-comp-id="|date-picker|calendar|">
+							<!--https://www.edreams.com/home/-->
+						</Condition>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="92" ParentRole="10">
+					<CurrentInfo>
+						<Condition Operator="equals" className="|calendar|datepicker|">
+							<!--salesforce Calender-->
+						</Condition>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="29" ParentRole="10">
+					<CurrentInfo>
+						<Condition Operator="contains" className="|uiDayInMonthCell|mat-calendar-body-cell-content|cell-input editable|goog-inline-block grid4-inner-container|">
+							<!--salesforce Calender, angular websites-->
+							<!-- To identify cells in the GoogleSheet  -->
+						</Condition>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="43" ParentRole="10">
+					<CurrentInfo>
+						<Condition Operator="contains" className="|mat-tab-label|urBorderBox lsEdf2HlpRadius lsEdf3HlpBtn lsEdf3HlpBtnF4|lsButton|appmagic-button middle center|appmagic-button-label no-focus-outline|appmagic-button-wrapper|odf-tabs|"/>
+						<!--angular websites, lsButton-https://bootstrapmade.com/demo/Selecao/ - btn,lsButton-https://portal.flynnrg.com/webdynpro/dispatcher/sap.com/tc~sec~ume~wd~enduser/LogonHelpApp#-->
+						<Condition Operator="contains" id="|ember|"/>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="45" ParentRole="10">
+					<CurrentInfo>
+						<Condition Operator="contains" className="|mat-radio-button|mat-radio-label|mat-radio-container|mat-radio-inner-circle|mat-radio-ripple|mat-radio-persistent-ripple|urNoUserSelect urRImgOff|urNoUserSelect urRImgOn|radio|radio-input|">
+							<!--angular websites-->
+						</Condition>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="34" ParentRole="46">
+					<CurrentInfo>
+						<Condition Operator="contains" className="|mat-option-|mat-option |goog-menuitem|MultipleSelectBox|active-result|dropdown-item|menuitem|MultipleSelectBox|active-result|dropdown-item|menuitem|">
+							<!--angular websites, https://play.google.com/store/paymentmethods,https://www.jqueryscript.net/demo/jQuery-Multiple-Select-Box-Plugin/,active-result -https://harvesthq.github.io/chosen/,https://seantheme.com/color-admin/admin/html/form_plugins.html, https://play.google.com/store/paymentmethods-->
+						</Condition>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="82" ParentRole="10">
+					<CurrentInfo>
+						<Condition Operator="contains" className="|mat-chip-remove|">
+							<!--angular websites-->
+						</Condition>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="34" ParentRole="10">
+					<CurrentInfo>
+						<Condition Operator="equals" role="|option|slds-truncate|menuitem|">
+							<!--https://abinbev-ei-crm.lightning.force.com-->
+						</Condition>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="42" ParentRole="">
+					<CurrentInfo>
+						<Condition Operator="equals" role="|textbox|">
+							<!--https://newaccount1603879306184.freshdesk.com/a/tickets/filters/all_tickets-->
+						</Condition>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="43" ParentRole="">
+					<CurrentInfo>
+						<Condition Operator="equals" role="|button|"/>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="44" ParentRole="">
+					<CurrentInfo>
+						<Condition Operator="equals" role="|checkbox|"/>
+						<Condition Operator="contains" className="|checkbox|">
+							<!--salesforce Calender, angular websites-->
+						</Condition>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="46" ParentRole="">
+					<CurrentInfo>
+						<Condition Operator="equals" role="|combobox|menu|dropdown icon|listbox|">
+							<!--https://seantheme.com/color-admin/admin/html/form_plugins.html - select country -->
+						</Condition>
+						<Condition Operator="contains" id="|combobox|">
+							<!--https://seantheme.com/color-admin/admin/html/form_plugins.html - select country -->
+						</Condition>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="46" ParentRole="">
+					<CurrentInfo>
+						<Condition Operator="equals" className="|urCoB2Btn|lsEdf3HlpBtnColsEdf3HlpBtnCoB|i_dropdownarrow|ddarrowSpan|fwpopupsel|toolbarButton|options_mink_menu float_left|down_arrow|x-form-trigger x-form-arrow-trigger|urCoB2TxtDdl|listinlinefocusedrowcell|dopdownInput textbox||column|operator|select|select2-selection__arrow|select2-selection__rendered|multiselect dropdown-toggle btn btn-default|select|dropdown icon|appmagic-dropdownLabelArrow|combobox-view-chevron|">
+							<!--https://ttskch.github.io/select2-bootstrap4-theme/, https://www.jqueryscript.net/demo/jQuery-Multiple-Select-Plugin-For-Bootstrap-Bootstrap-Multiselect/ -->
+						</Condition>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="43" ParentRole="">
+					<CurrentInfo>
+						<Condition Operator="equals" className="|urBtnStd|urBtnEmph|urBtnEmphDB|lsEdf3HlpBtn|urBtnStdPrevStep|urBtnMnuIco|urBtnStdNextStep|urBtnTgl|button_title|BSSubViewLink|BSSubViewsContainer|NaviListHoverState10|BSViewLink|WebguiIconTextButton|button_middle|TreeText|TreeTextHover|urCalArrNext|urBtnImg|prtlTopNavLnk|NaviTreeTitleTextDownHoverState|rndbuttoninpt bntBgT|multiBntTri|bgbutton|rightArrowIcon|leftArrowIcon|doubleArrowUp|upArrowIcon|downArrowIcon|doubleArrowDwn|urEdf2HlpDate|lsEdf3HlpBtn|lsEdf4HlpBtn|urEdfHlpF4|urEdf2HlpF4|webguiSearchHelpButton|Workcenter|House|TabText|Icon_TitleContainer|if-button-text|if-ms-img|if-image|if-ms-item if-rounded|ui-button|urSTRowSelSecIcon|urSTRowUnSelIcon||TabText|urTxtStd|urTxtStd1|urIlb2I|urCob2I|urCob2Box|nldropdown|dropdownNotSelected|dropdownSelected|dropdownInput textbox|infoIcon|"/>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="44" ParentRole="">
+					<CurrentInfo>
+						<Condition Operator="equals" className="|urCWhl|urCImgOff|urCImgOn|checkbox|checkboximage|checkboxSpan smallgraytextnolink|checkboximage|"/>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="45" ParentRole="">
+					<CurrentInfo>
+						<Condition Operator="equals" className="|urCLbl|urCl1|urRImgOn|urRImgOff|urL|"/>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="37" ParentRole="">
+					<CurrentInfo>
+						<Condition Operator="equals" className="|lsHcnpTabText2|lsHcnpTabEnd2|lsHcnpPanelBrd|lsTbsLabel2|webguiTSTextDesel|webguiTSTextSel|ctrlTbsTxtOn|ctrlTbsTxtOff|urTbsTxtOn|urTbsTxtOff|ontab|listheader|formtabtext formtabtextoff|selected first|"/>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="41" ParentRole="">
+					<CurrentInfo>
+						<Condition Operator="equals" className="|f|"/>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="12" ParentRole="">
+					<CurrentInfo>
+						<Condition Operator="equals" className="|urMnuTxt|nmbiText|PopUpMenuDown10|urMnu|editableLabel-label|crosslinktextul|ddmAnchor|leftArrowIcon|"/>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="42" ParentRole="">
+					<CurrentInfo>
+						<Condition Operator="equals" className="|urEdfTxtEnbl|urEdf2TxtEnbl|input|inputSelected|inputComboControl|favoriteUrlTextBox|fieldinput_mandatory_amount|"/>
+						<!--ab-inbev -text-->
+						<Condition Operator="contains" className="|form-in-custom|"/>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="44" ParentRole="">
+					<CurrentInfo>
+						<Condition Operator="contains" className="|urNoUserSelect urCImgOn|urNoUserSelect urCImgOff|checkbox|"/>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="29" ParentRole="">
+					<CurrentInfo>
+						<Condition Operator="equals" className="|row|"/>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="34" ParentRole="">
+					<CurrentInfo>
+						<Condition Operator="equals" className="|select2-results__option select2-results__option--highlighted|select2-results__option|optgroupitem|item|menu transition|active selected item|ui small header|">
+							<!--https://ttskch.github.io/select2-bootstrap4-theme/-->
+							<!--https://www.jqueryscript.net/demo/jQuery-Multiple-Select-Box-Plugin/-->
+							<!--ab-inbeV buyco : item|menu transition|active selected item|ui small header|-->
+						</Condition>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="42" ParentRole="">
+					<CurrentInfo>
+						<Condition Operator="equals" className="|od-field|text|textarea|">
+							<!--https://www.edreams.com/travel/secure/#details/  -Angular-->
+						</Condition>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="42" ParentRole="">
+					<CurrentInfo>
+						<Condition Operator="equals" type="|text|">
+							<!--#ab-inbev-->
+						</Condition>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="43" ParentRole="">
+					<CurrentInfo>
+						<Condition Operator="equals" role="|button|"/>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="30" ParentRole="">
+					<CurrentInfo>
+						<Condition Operator="contains" className="|headlink|"/>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="43" ParentRole="">
+					<CurrentInfo>
+						<Condition Operator="equals" id="|logo_wrapper|"/>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="44" ParentRole="10">
+					<CurrentInfo>
+						<Condition Operator="contains" className="checkmark">
+						</Condition>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="45" ParentRole="10">
+					<CurrentInfo>
+						<Condition Operator="contains" className="appmagic-toggleSwitch-off|appmagic-toggleSwitch-on">
+						</Condition>
+					</CurrentInfo>
+				</Rule>
+			</BasedOnAttributes>
+			<BasedOnTraverseLogic>
+				<Rule Enable="1" CurrentRole="44" ParentRole="">
+					<CurrentInfo>
+						<!-- Note: should starts-with and ends-with '|' -->
+						<Condition TagName="|label|"/>
+					</CurrentInfo>
+					<TraversalInfo>
+						<Path Path="PS">
+							<Condition Operator="recursive">
+								<!-- Note : Attribute value Case sensitive. -->
+								<Attributes TagName="input" type="checkbox"/>
+								<!--www.edreams.com-->
+							</Condition>
+						</Path>
+					</TraversalInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="29" ParentRole="">
+					<CurrentInfo>
+						<!-- Note: should starts-with and ends-with '|' -->
+						<Condition TagName="|span|"/>
+					</CurrentInfo>
+					<TraversalInfo>
+						<Path Path="PS">
+							<Condition Operator="recursive">
+								<!-- Note : Attribute value Case sensitive. -->
+								<Attributes TagName="td" dynamic-calendar-cell="cell.attributes"/>
+								<!--www.edreams.com-->
+							</Condition>
+						</Path>
+					</TraversalInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="42" ParentRole="">
+					<CurrentInfo>
+						<!-- Note: should starts-with and ends-with '|' -->
+						<Condition className="|mat-form-field-infix|" Operator="contains"/>
+					</CurrentInfo>
+					<TraversalInfo>
+						<Path Path="CH">
+							<Condition Operator="recursive">
+								<!-- Note : Attribute value Case sensitive. -->
+								<Attributes TagName="input" Type="text"/>
+								<!--angular websites-->
+							</Condition>
+						</Path>
+					</TraversalInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="46" ParentRole="">
+					<CurrentInfo>
+						<!-- Note: should starts-with and ends-with '|' -->
+						<Condition className="|mat-form-field|" Operator="contains"/>
+					</CurrentInfo>
+					<TraversalInfo>
+						<Path Path="CH">
+							<Condition Operator="recursive">
+								<!-- Note : Attribute value Case sensitive. -->
+								<Attributes TagName="mat-select"/>
+								<!--angular websites-->
+							</Condition>
+						</Path>
+					</TraversalInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="44" ParentRole="">
+					<CurrentInfo>
+						<!-- Note: should starts-with and ends-with '|' -->
+						<!--angular websites-->
+						<Condition className="|mat-slide-toggle-thumb|" Operator="equals"/>
+					</CurrentInfo>
+					<TraversalInfo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<!-- Note : Attribute value Case sensitive. -->
+								<Attributes className="mat-slide-toggle-thumb-container"/>
+							</Condition>
+						</Path>
+						<Path Path="PS">
+							<Condition Operator="recursive">
+								<!-- Note : Attribute value Case sensitive. -->
+								<Attributes TagName="input" type="checkbox"/>
+							</Condition>
+						</Path>
+					</TraversalInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="44" ParentRole="">
+					<CurrentInfo>
+						<!-- Note: should starts-with and ends-with '|' -->
+						<Condition className="|checkbox|mat-slide-toggle-bar|mat-slide-toggle-label|appmagic-checkbox-control|" Operator="contains"/>
+					</CurrentInfo>
+					<TraversalInfo>
+						<Path Path="CH">
+							<Condition Operator="recursive">
+								<!-- Note : Attribute value Case sensitive. -->
+								<Attributes TagName="input" type="checkbox"/>
+							</Condition>
+						</Path>
+					</TraversalInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="44" ParentRole="">
+					<CurrentInfo>
+						<!-- Note: should starts-with and ends-with '|' -->
+						<Condition TagName="|span|"/>
+					</CurrentInfo>
+					<TraversalInfo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="label" class="slds-checkbox__label">
+									<!--https://abinbev-ei-crm.lightning.force.com-->
+								</Attributes>
+							</Condition>
+						</Path>
+						<Path Path="PS">
+							<Condition Operator="recursive">
+								<Attributes TagName="input">
+									<!--https://abinbev-ei-crm.lightning.force.com-->
+								</Attributes>
+							</Condition>
+						</Path>
+					</TraversalInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="82" ParentRole="">
+					<CurrentInfo>
+						<!-- Note: should starts-with and ends-with '|' -->
+						<Condition TagName="|path|"/>
+					</CurrentInfo>
+					<TraversalInfo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="svg">
+									<!--https://abinbev-ei-crm.lightning.force.com-->
+								</Attributes>
+							</Condition>
+						</Path>
+					</TraversalInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="43" ParentRole="">
+					<CurrentInfo>
+						<!-- Note: should starts-with and ends-with '|' -->
+						<Condition TagName="|span|"/>
+					</CurrentInfo>
+					<TraversalInfo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="button">
+									<!--https://abinbev-ei-crm.lightning.force.com-->
+								</Attributes>
+							</Condition>
+						</Path>
+					</TraversalInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="34" ParentRole="">
+					<CurrentInfo>
+						<!-- Note: should starts-with and ends-with '|' -->
+						<Condition TagName="|span|"/>
+					</CurrentInfo>
+					<TraversalInfo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="div" role="option">
+									<!--https://abinbev-ei-crm.lightning.force.com-->
+								</Attributes>
+							</Condition>
+						</Path>
+					</TraversalInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="46" ParentRole="">
+					<CurrentInfo>
+						<!-- Note: should starts-with and ends-with '|' -->
+						<Condition TagName="|span|a|"/>
+					</CurrentInfo>
+					<TraversalInfo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="div" classname="dropdown">
+									<!--https://www.hdfcbank.com/-->
+								</Attributes>
+							</Condition>
+						</Path>
+					</TraversalInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="44" ParentRole="">
+					<CurrentInfo>
+						<!-- Note: should starts-with and ends-with '|' -->
+						<Condition TagName="|label|"/>
+					</CurrentInfo>
+					<ParentInfo>
+						<!-- Note: should starts-with and ends-with '|' -->
+						<Condition TagName="|li|"/>
+					</ParentInfo>
+					<TraversalInfo>
+						<Path Path="PS">
+							<Condition Operator="recursive">
+								<!-- Note : Attribute value Case sensitive. -->
+								<Attributes TagName="div"/>
+							</Condition>
+						</Path>
+						<Path Path="CH">
+							<Condition Operator="recursive">
+								<Attributes TagName="input" type="checkbox"/>
+							</Condition>
+						</Path>
+					</TraversalInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="44" ParentRole="">
+					<CurrentInfo>
+						<!-- Note: should starts-with and ends-with '|' -->
+						<Condition TagName="|li|"/>
+					</CurrentInfo>
+					<TraversalInfo>
+						<Path Path="CH">
+							<Condition Operator="recursive">
+								<!-- Note : Attribute value Case sensitive. -->
+								<Attributes TagName="div"/>
+							</Condition>
+						</Path>
+						<Path Path="CH">
+							<Condition Operator="recursive">
+								<Attributes TagName="input" type="checkbox">
+									<!--http://icheck.fronteed.com/-->
+								</Attributes>
+							</Condition>
+						</Path>
+					</TraversalInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="45" ParentRole="">
+					<CurrentInfo>
+						<!-- Note: should starts-with and ends-with '|' -->
+						<Condition TagName="|li|"/>
+					</CurrentInfo>
+					<TraversalInfo>
+						<Path Path="CH">
+							<Condition Operator="recursive">
+								<!-- Note : Attribute value Case sensitive. -->
+								<Attributes TagName="div"/>
+							</Condition>
+						</Path>
+						<Path Path="CH">
+							<Condition Operator="recursive">
+								<Attributes TagName="input" type="radio">
+									<!--http://icheck.fronteed.com/-->
+								</Attributes>
+							</Condition>
+						</Path>
+					</TraversalInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="45" ParentRole="">
+					<CurrentInfo>
+						<!-- Note: should starts-with and ends-with '|' -->
+						<Condition TagName="|label|"/>
+					</CurrentInfo>
+					<TraversalInfo>
+						<Path Path="PS">
+							<Condition Operator="recursive">
+								<!-- Note : Attribute value Case sensitive. -->
+								<Attributes TagName="input" type="radio">
+									<!--http://themicon.co/theme/mdangle/v1.0/static-html/app/form-standard.html-->
+								</Attributes>
+							</Condition>
+						</Path>
+					</TraversalInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="44" ParentRole="">
+					<CurrentInfo>
+						<!-- Note: should starts-with and ends-with '|' -->
+						<Condition TagName="|label|"/>
+					</CurrentInfo>
+					<TraversalInfo>
+						<Path Path="PS">
+							<Condition Operator="recursive">
+								<!-- Note : Attribute value Case sensitive. -->
+								<Attributes TagName="input" type="checkbox">
+									<!--http://themicon.co/theme/mdangle/v1.0/static-html/app/form-standard.html-->
+								</Attributes>
+							</Condition>
+						</Path>
+					</TraversalInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="45" ParentRole="">
+					<CurrentInfo>
+						<!-- Note: should starts-with and ends-with '|' -->
+						<Condition TagName="|label|"/>
+					</CurrentInfo>
+					<TraversalInfo>
+						<Path Path="CH">
+							<Condition Operator="recursive">
+								<!-- Note : Attribute value Case sensitive. -->
+								<Attributes TagName="input" type="radio">
+									<!--https://www.edreams.com/flights/-->
+								</Attributes>
+							</Condition>
+						</Path>
+					</TraversalInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="44" ParentRole="">
+					<CurrentInfo>
+						<!-- Note: should starts-with and ends-with '|' -->
+						<Condition TagName="|label|"/>
+					</CurrentInfo>
+					<TraversalInfo>
+						<Path Path="CH">
+							<Condition Operator="recursive">
+								<!-- Note : Attribute value Case sensitive. -->
+								<Attributes TagName="input" type="checkbox">
+									<!--http://webapplayers.com/inspinia_admin-v2.9.3/form_basic.html-->
+								</Attributes>
+							</Condition>
+						</Path>
+					</TraversalInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="43" ParentRole="">
+					<CurrentInfo>
+						<!-- Note: should starts-with and ends-with '|' -->
+						<Condition TagName="|label|"/>
+					</CurrentInfo>
+					<TraversalInfo>
+						<Path Path="PS">
+							<Condition Operator="recursive">
+								<!-- Note : Attribute value Case sensitive. -->
+								<Attributes TagName="button">
+									<!--http://themicon.co/templates/?item=dasha-->
+								</Attributes>
+							</Condition>
+						</Path>
+					</TraversalInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="46" ParentRole="">
+					<CurrentInfo>
+						<!-- Note: should starts-with and ends-with '|' -->
+						<Condition TagName="|button|"/>
+					</CurrentInfo>
+					<TraversalInfo>
+						<Path Path="PS">
+							<Condition Operator="recursive">
+								<!-- Note : Attribute value Case sensitive. -->
+								<Attributes TagName="select">
+									<!--https://seantheme.com/color-admin/admin/html/form_plugins.html-->
+								</Attributes>
+							</Condition>
+						</Path>
+					</TraversalInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="46" ParentRole="">
+					<CurrentInfo>
+						<!-- Note: should starts-with and ends-with '|' -->
+						<Condition TagName="|div|"/>
+					</CurrentInfo>
+					<TraversalInfo>
+						<Path Path="CH">
+							<Condition Operator="recursive">
+								<!-- Note : Attribute value Case sensitive. -->
+								<Attributes TagName="div" role="option">
+									<!--https://play.google.com/store/paymentmethods-->
+								</Attributes>
+							</Condition>
+						</Path>
+					</TraversalInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="45" ParentRole="">
+					<CurrentInfo>
+						<!-- Note: should starts-with and ends-with '|' -->
+						<Condition TagName="|ins|"/>
+					</CurrentInfo>
+					<TraversalInfo>
+						<Path Path="PS">
+							<Condition Operator="recursive">
+								<!-- Note : Attribute value Case sensitive. -->
+								<Attributes TagName="input" type="radio">
+									<!--http://icheck.fronteed.com/ -Chrome-->
+								</Attributes>
+							</Condition>
+						</Path>
+					</TraversalInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="44" ParentRole="">
+					<CurrentInfo>
+						<!-- Note: should starts-with and ends-with '|' -->
+						<Condition TagName="|ins|"/>
+					</CurrentInfo>
+					<TraversalInfo>
+						<Path Path="PS">
+							<Condition Operator="recursive">
+								<!-- Note : Attribute value Case sensitive. -->
+								<Attributes TagName="input" type="checkbox">
+									<!--http://icheck.fronteed.com/ -Chrome-->
+								</Attributes>
+							</Condition>
+						</Path>
+					</TraversalInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="44" ParentRole="">
+					<CurrentInfo>
+						<!-- Note: should starts-with and ends-with '|' -->
+						<Condition TagName="|span|"/>
+					</CurrentInfo>
+					<TraversalInfo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<!-- Note : Attribute value Case sensitive. -->
+								<Attributes TagName="label">
+									<!--Mantis/ -Chrome-->
+								</Attributes>
+							</Condition>
+						</Path>
+						<Path Path="CH">
+							<Condition Operator="recursive">
+								<!-- Note : Attribute value Case sensitive. -->
+								<Attributes TagName="input" type="checkbox">
+									<!--http://epitome.epiplex500.com/login_page.php?return=bug_report_page.php/ -Chrome-->
+								</Attributes>
+							</Condition>
+						</Path>
+					</TraversalInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="45" ParentRole="">
+					<CurrentInfo>
+						<!-- Note: should starts-with and ends-with '|' -->
+						<Condition TagName="|span|"/>
+					</CurrentInfo>
+					<TraversalInfo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<!-- Note : Attribute value Case sensitive. -->
+								<Attributes TagName="label">
+									<!--Mantis/ -Chrome-->
+								</Attributes>
+							</Condition>
+						</Path>
+						<Path Path="CH">
+							<Condition Operator="recursive">
+								<!-- Note : Attribute value Case sensitive. -->
+								<Attributes TagName="input" type="radio">
+									<!--http://epitome.epiplex500.com/login_page.php?return=bug_report_page.php/ -Chrome-->
+								</Attributes>
+							</Condition>
+						</Path>
+					</TraversalInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="34" ParentRole="">
+					<CurrentInfo>
+						<!-- Note: should starts-with and ends-with '|' -->
+						<Condition TagName="|span|"/>
+					</CurrentInfo>
+					<TraversalInfo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<!-- Note : Attribute value Case sensitive. -->
+								<Attributes TagName="lightning-base-combobox-item">
+									<!--salesfroce lightning-->
+								</Attributes>
+							</Condition>
+						</Path>
+					</TraversalInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="34" ParentRole="">
+					<CurrentInfo>
+						<!-- Note: should starts-with and ends-with '|' -->
+						<Condition TagName="|span|"/>
+					</CurrentInfo>
+					<TraversalInfo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="div" className="itemTemplateContainer_595lsy">
+									<!--https://abinbev-ei-crm.lightning.force.com-->
+								</Attributes>
+							</Condition>
+						</Path>
+					</TraversalInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="44" ParentRole="">
+					<CurrentInfo>
+						<!-- Note: should starts-with and ends-with '|' -->
+						<Condition TagName="|rect|"/>
+					</CurrentInfo>
+					<TraversalInfo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="g">
+									<!--https://abinbev-ei-crm.lightning.force.com-->
+								</Attributes>
+							</Condition>
+						</Path>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="svg">
+									<!--https://abinbev-ei-crm.lightning.force.com-->
+								</Attributes>
+							</Condition>
+						</Path>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="div" className="appmagic-checkbox-placeholder">
+									<!--https://abinbev-ei-crm.lightning.force.com-->
+								</Attributes>
+							</Condition>
+						</Path>
+					</TraversalInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="44" ParentRole="">
+					<CurrentInfo>
+						<!-- Note: should starts-with and ends-with '|' -->
+						<Condition TagName="|svg|"/>
+					</CurrentInfo>
+					<TraversalInfo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="div" className="appmagic-checkbox-placeholder">
+									<!--https://abinbev-ei-crm.lightning.force.com-->
+								</Attributes>
+							</Condition>
+						</Path>
+					</TraversalInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="34" ParentRole="46">
+					<CurrentInfo>
+						<Condition TagName="|span|"/>
+					</CurrentInfo>
+					<TraversalInfo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="div"/>
+							</Condition>
+						</Path>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="li"/>
+							</Condition>
+						</Path>
+					</TraversalInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="43" ParentRole="10">
+					<CurrentInfo>
+						<!-- Note: should starts-with and ends-with '|' -->
+						<Condition TagName="|polygon|"/>
+					</CurrentInfo>
+					<TraversalInfo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="svg"/>
+							</Condition>
+						</Path>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="button"/>
+							</Condition>
+						</Path>
+					</TraversalInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="46" ParentRole="10">
+					<CurrentInfo>
+						<!-- Note: should starts-with and ends-with '|' -->
+						<Condition TagName="|span|"/>
+					</CurrentInfo>
+					<TraversalInfo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="div"/>
+							</Condition>
+						</Path>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="div"/>
+							</Condition>
+						</Path>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="div"/>
+							</Condition>
+						</Path>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="div" classname="appmagic-border-inner"/>
+							</Condition>
+						</Path>
+					</TraversalInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="46" ParentRole="10">
+					<CurrentInfo>
+						<Condition TagName="|span|"/>
+					</CurrentInfo>
+					<TraversalInfo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="div"/>
+							</Condition>
+						</Path>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="div"/>
+							</Condition>
+						</Path>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="div" classname="react-combobox-view"/>
+							</Condition>
+						</Path>
+					</TraversalInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="46" ParentRole="10">
+					<CurrentInfo>
+						<!-- Note: should starts-with and ends-with '|' -->
+						<Condition TagName="|div|"/>
+					</CurrentInfo>
+					<TraversalInfo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="div"/>
+							</Condition>
+						</Path>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="div"/>
+							</Condition>
+						</Path>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="div" classname="react-combobox-view"/>
+							</Condition>
+						</Path>
+					</TraversalInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="46" ParentRole="10">
+					<CurrentInfo>
+						<!-- Note: should starts-with and ends-with '|' -->
+						<Condition TagName="|div|"/>
+					</CurrentInfo>
+					<TraversalInfo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="div"/>
+							</Condition>
+						</Path>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="div" classname="react-combobox-view"/>
+							</Condition>
+						</Path>
+					</TraversalInfo>
+				</Rule>
+				<Rule Enable="1" CurrentRole="46" ParentRole="10">
+					<CurrentInfo>
+						<!-- Note: should starts-with and ends-with '|' -->
+						<Condition TagName="|div|"/>
+					</CurrentInfo>
+					<TraversalInfo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="div" classname="react-combobox-view"/>
+							</Condition>
+						</Path>
+					</TraversalInfo>
+				</Rule>
+			</BasedOnTraverseLogic>
+		</RoleIdentifier>
+		<LabelIdentifier rolesforrectandielogic="42|44|45|46|33|34">
+			<StandardLogic>
+				<Rule Id="SL_1">
+					<Attributes From="id" To="htmlfor" Operator="contains"/>
+				</Rule>
+				<Rule Id="SL_2">
+					<Attributes From="id" To="f" Operator="contains">
+						<!--Salesforce User Name and Password identification-->
+					</Attributes>
+				</Rule>
+			</StandardLogic>
+			<TraverseLogic>
+				<Rule Id="TL_3" Enable="1">
+					<WhenToConsider Role="44" ParentRole="10">
+						<Attributes TagName="input"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR">
+							<Condition Operator="simple">
+								<Attributes TagName="label"/>
+							</Condition>
+						</Path>
+						<Path Path="CH">
+							<Condition Operator="simple">
+								<Attributes TagName="label"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText"/>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_4" Enable="1">
+					<WhenToConsider Role="40" ParentRole="">
+						<Attributes TagName="IMG"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="td"/>
+							</Condition>
+						</Path>
+						<Path Path="PS-CH">
+							<Condition Operator="simple"/>
+						</Path>
+						<Path Path="CH">
+							<Condition Operator="recursive">
+								<Attributes TagName="a"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText"/>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_7" Enable="1">
+					<WhenToConsider Role="30" ParentRole="">
+						<Attributes TagName="a"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="td" classname="bgofftab"/>
+							</Condition>
+						</Path>
+						<Path Path="PS">
+							<Condition Operator="recursive">
+								<Attributes TagName="td" classname="bgontab"/>
+							</Condition>
+						</Path>
+						<Path Path="CH-CH">
+							<Condition Operator="simple">
+								<Attributes TagName="td" classname="bgontab"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText"/>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_8" Enable="1">
+					<WhenToConsider Role="30" ParentRole="">
+						<Attributes TagName="a"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="td" classname="bgofftab"/>
+							</Condition>
+						</Path>
+						<Path Path="PS">
+							<Condition Operator="recursive">
+								<Attributes TagName="td" classname="bgontab"/>
+							</Condition>
+						</Path>
+						<Path Path="CH-CH">
+							<Condition Operator="simple">
+								<Attributes TagName="td" classname="bgontab"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText"/>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_9" Enable="1">
+					<WhenToConsider Role="42" ParentRole="10">
+						<Attributes TagName="input"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PS">
+							<Condition Operator="simple">
+								<Attributes classname="" TagName="td"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText"/>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_10" Enable="1">
+					<WhenToConsider Role="44" ParentRole="10">
+						<Attributes TagName="input"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="td"/>
+							</Condition>
+						</Path>
+						<Path Path="PS">
+							<Condition Operator="simple"/>
+						</Path>
+						<Path Path="CH">
+							<Condition Operator="recursive">
+								<Attributes TagName="img"/>
+							</Condition>
+						</Path>
+						<Path Path="NS">
+							<Condition Operator="recursive">
+								<Attributes TagName="a"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText"/>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_11" Enable="1">
+					<WhenToConsider Role="41" ParentRole="">
+						<Attributes TagName="div"/>
+					</WhenToConsider>
+					<WhatToCall>
+						<Method Name="innerText"/>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_12" Enable="1">
+					<WhenToConsider Role="45" ParentRole="">
+						<Attributes TagName="INPUT" Type="RADIO"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="NS">
+							<Condition Operator="simple"/>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText"/>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_14" Enable="1">
+					<WhenToConsider Role="41" ParentRole="">
+						<Attributes TagName="label"/>
+					</WhenToConsider>
+					<WhatToCall>
+						<Method Name="innerText"/>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_15" Enable="1">
+					<WhenToConsider Role="44" ParentRole="10">
+						<Attributes TagName="input"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="NS">
+							<Condition Operator="recursive">
+								<Attributes TagName="p"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText"/>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_16" Enable="1">
+					<WhenToConsider Role="44" ParentRole="10">
+						<Attributes TagName="input" Type="CHECKBOX"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR">
+							<Condition Operator="simple"/>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText"/>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_17" Enable="1">
+					<WhenToConsider Role="41" ParentRole="">
+						<Attributes TagName="Li"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="CH.1">
+							<Condition Operator="simple">
+								<Attributes TagName="td" classname="bgontab"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText"/>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_18" Enable="1">
+					<WhenToConsider Role="30" ParentRole="10">
+						<Attributes TagName="a" className="normalTextLabel"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PS">
+							<Condition Operator="simple">
+								<Attributes TagName="td" classname="bgontab"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText"/>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_19" Enable="1">
+					<WhenToConsider Role="46" ParentRole="">
+						<Attributes TagName="SELECT" Type="SELECT-ONE"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="td" classname="dataCol col02"/>
+							</Condition>
+						</Path>
+						<Path Path="CH">
+							<Condition Operator="simple">
+								<Attributes TagName="td" classname="dataCol col02"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText"/>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_20" Enable="1">
+					<WhenToConsider Role="34" ParentRole="">
+						<Attributes TagName="SELECT"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="p"/>
+							</Condition>
+						</Path>
+						<Path Path="PS-CH">
+							<Condition Operator="simple">
+								<Attributes TagName="p"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText"/>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_24" Enable="1">
+					<WhenToConsider Role="45" ParentRole="">
+						<Attributes TagName="INPUT" Type="RADIO"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="tr"/>
+							</Condition>
+						</Path>
+						<Path Path="CH">
+							<Condition Operator="recursive">
+								<Attributes TagName="a"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText">
+							<!--Net Suite Radio Button - -> Need to add some logic for Sub Radio Button-->
+						</Method>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_27" Enable="1">
+					<WhenToConsider Role="42" ParentRole="">
+						<Attributes TagName="input"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes tagname="td"/>
+							</Condition>
+						</Path>
+						<Path Path="PS">
+							<Condition Operator="recursive">
+								<Attributes tagname="td"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText">
+							<!--NetSuite -> Text Box Label-->
+						</Method>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_28" Enable="1">
+					<WhenToConsider Role="42" ParentRole="">
+						<Attributes TagName="textarea"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes tagname="tr"/>
+							</Condition>
+						</Path>
+						<Path Path="CH">
+							<Condition Operator="recursive">
+								<Attributes tagname="a"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText">
+							<!--NetSuite -> Text Box Label-->
+						</Method>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_29" Enable="1">
+					<WhenToConsider Role="42" ParentRole="">
+						<Attributes TagName="input"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes tagname="tr"/>
+							</Condition>
+						</Path>
+						<Path Path="CH-CH-CH-NS">
+							<Condition Operator="simple">
+								<Attributes tagname="a"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText">
+							<!--NetSuite -> Text Box Label-->
+						</Method>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_30" Enable="1">
+					<WhenToConsider Role="44" ParentRole="10">
+						<Attributes TagName="img"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="tr"/>
+							</Condition>
+						</Path>
+						<Path Path="CH">
+							<Condition Operator="recursive">
+								<Attributes TagName="a"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText">
+							<!--Netsuite - checkbox-->
+						</Method>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_31" Enable="1">
+					<WhenToConsider Role="46" ParentRole="">
+						<Attributes TagName="IMG"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="tr"/>
+							</Condition>
+						</Path>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="tr"/>
+							</Condition>
+						</Path>
+						<Path Path="CH">
+							<Condition Operator="recursive">
+								<Attributes TagName="label"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText">
+							<!--SAP Net Weaver -combo-box (IMG TAG)-->
+						</Method>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_32" Enable="1">
+					<WhenToConsider Role="46" ParentRole="">
+						<Attributes TagName="a"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="tr"/>
+							</Condition>
+						</Path>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="tr"/>
+							</Condition>
+						</Path>
+						<Path Path="CH">
+							<Condition Operator="recursive">
+								<Attributes TagName="label"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText">
+							<!--SAP Net Weaver -combo-box (A/Link TAG)-->
+						</Method>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_33" Enable="1">
+					<WhenToConsider Role="43" ParentRole="">
+						<Attributes alt="Open Input Help"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="tr"/>
+							</Condition>
+						</Path>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="tr"/>
+							</Condition>
+						</Path>
+						<Path Path="CH">
+							<Condition Operator="recursive">
+								<Attributes TagName="label"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText">
+							<!--SAP Net Weaver ICON (Input)-->
+						</Method>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_34" Enable="1">
+					<WhenToConsider Role="42" ParentRole="">
+						<Attributes type="password"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR">
+							<Condition Operator="simple"/>
+						</Path>
+						<Path Path="PS">
+							<Condition Operator="simple"/>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText">
+							<!--SAP NetWeaver - -> Login - -> Password ( Only TL not Rule for based on attribute )-->
+						</Method>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_37" Enable="1">
+					<WhenToConsider Role="47">
+						<Attributes className="column"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes tagname="tbody"/>
+							</Condition>
+						</Path>
+						<Path Path="CH.0-CH.1">
+							<Condition Operator="simple">
+								<Attributes tagname="tbody"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText"/>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_38" Enable="1">
+					<WhenToConsider Role="46">
+						<Attributes className="column"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes tagname="tbody"/>
+							</Condition>
+						</Path>
+						<Path Path="CH-CH.1">
+							<Condition Operator="simple">
+								<Attributes tagname="td"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText"/>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_39" Enable="1">
+					<WhenToConsider Role="42">
+						<Attributes tagName="TEXTAREA"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR">
+							<Condition Operator="simple"/>
+						</Path>
+						<Path Path="PS">
+							<Condition Operator="simple"/>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText"/>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_40" Enable="1">
+					<WhenToConsider Role="46" ParentRole="">
+						<Attributes TagName="SELECT"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PS">
+							<Condition Operator="simple">
+								<Attributes TagName="p"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText"/>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_42" Enable="1">
+					<WhenToConsider Role="46" ParentRole="">
+						<Attributes className="operator"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes tagname="tbody"/>
+							</Condition>
+						</Path>
+						<Path Path="CH-CH.2">
+							<Condition Operator="simple">
+								<Attributes tagname="td"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText"/>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_43" Enable="1">
+					<WhenToConsider Role="42" ParentRole="">
+						<Attributes tagName="input"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes tagname="tbody"/>
+							</Condition>
+						</Path>
+						<Path Path="CH-CH.3">
+							<Condition Operator="simple">
+								<Attributes tagname="td"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText"/>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_44" Enable="1">
+					<WhenToConsider Role="43" ParentRole="">
+						<Attributes className="infoIcon"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="NS">
+							<Condition Operator="simple">
+								<Attributes TagName="p"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText"/>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_45" Enable="1">
+					<WhenToConsider Role="46" ParentRole="">
+						<Attributes tagName="select"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR-PS">
+							<Condition Operator="simple">
+								<Attributes TagName="tr"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText"/>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_46" Enable="1">
+					<WhenToConsider Role="30" ParentRole="">
+						<Attributes tagName="a"/>
+					</WhenToConsider>
+					<WhatToCall>
+						<Method Name="innerText"/>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_47" Enable="1">
+					<WhenToConsider Role="41" ParentRole="">
+						<Attributes TagName="Li"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="CH-CH">
+							<Condition Operator="simple"/>
+						</Path>
+						<Path Path="NS">
+							<Condition Operator="recursive">
+								<Attributes TagName="a"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText"/>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_48" Enable="1">
+					<WhenToConsider Role="10" ParentRole="">
+						<Attributes className="weekday" TagName="td"/>
+					</WhenToConsider>
+					<WhatToCall>
+						<Method Name="innerText"/>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_49" Enable="1">
+					<WhenToConsider Role="43" ParentRole="">
+						<Attributes type="button" TagName="input"/>
+					</WhenToConsider>
+					<WhatToCall>
+						<Method Name="value"/>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_50" Enable="1">
+					<WhenToConsider Role="37" ParentRole="">
+						<Attributes className="lsTbsLabel2"/>
+					</WhenToConsider>
+					<WhatToCall>
+						<Method Name="innerText"/>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_51" Enable="1">
+					<WhenToConsider Role="44" ParentRole="">
+						<Attributes TagName="IMG"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR">
+							<Condition Operator="simple"/>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText"/>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_52" Enable="1">
+					<WhenToConsider Role="45" ParentRole="">
+						<Attributes TagName="IMG"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR">
+							<Condition Operator="simple"/>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText">
+							<!--AG screen-->
+						</Method>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_53" Enable="1">
+					<WhenToConsider Role="44" ParentRole="10">
+						<Attributes TagName="input"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR">
+							<Condition Operator="simple">
+								<Attributes TagName="label"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText"/>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_54" Enable="1">
+					<WhenToConsider Role="45" ParentRole="10">
+						<Attributes TagName="input"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR">
+							<Condition Operator="simple">
+								<Attributes TagName="label"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText"/>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_55" Enable="1">
+					<WhenToConsider Role="43" ParentRole="10">
+						<Attributes TagName="button"/>
+					</WhenToConsider>
+					<WhatToCall>
+						<Method Name="innerText">
+							<!--license page and bootstrap button-->
+						</Method>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_56" Enable="1">
+					<WhenToConsider Role="43" ParentRole="10">
+						<Attributes TagName="a" role="button"/>
+					</WhenToConsider>
+					<WhatToCall>
+						<Method Name="innerText">
+							<!--bootstrap button-->
+						</Method>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_58" Enable="1">
+					<WhenToConsider Role="34" ParentRole="">
+						<Attributes TagName="select"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="div" className="form-group row"/>
+							</Condition>
+						</Path>
+						<Path Path="CH">
+							<Condition Operator="simple">
+								<Attributes TagName="label"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText">
+							<!--http://webapplayers.com/inspinia_admin-v2.9.3/form_basic.html-->
+						</Method>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_62" Enable="1">
+					<WhenToConsider Role="34" ParentRole="">
+						<Attributes TagName="select"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="div" className="form-group row m-b-15"/>
+							</Condition>
+						</Path>
+						<Path Path="CH">
+							<Condition Operator="simple">
+								<Attributes TagName="label"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText">
+							<!--https://seantheme.com/color-admin/admin/html/form_elements.html-->
+						</Method>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_61" Enable="1">
+					<WhenToConsider Role="42" ParentRole="">
+						<Attributes TagName="input"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="div"/>
+							</Condition>
+						</Path>
+						<Path Path="CH">
+							<Condition Operator="simple">
+								<Attributes TagName="label"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText"/>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_60" Enable="1">
+					<WhenToConsider Role="42" ParentRole="">
+						<Attributes TagName="input" type="text"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="div" className="form-group row"/>
+							</Condition>
+						</Path>
+						<Path Path="CH">
+							<Condition Operator="simple">
+								<Attributes TagName="label">
+									<!--http://themicon.co/templates/?item=dasha-->
+								</Attributes>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText">
+							<!--Bootstrap centric http://themicon.co/templates/?item=centric-->
+						</Method>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_62" Enable="1">
+					<WhenToConsider Role="42" ParentRole="">
+						<Attributes TagName="input" type="text"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="div" className="form-group form-row mt-4"/>
+							</Condition>
+						</Path>
+						<Path Path="CH">
+							<Condition Operator="simple">
+								<Attributes TagName="div"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText">
+							<!--http://active-themes.com/ace/demo/html/form-wizard.html-->
+						</Method>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_57" Enable="1">
+					<WhenToConsider Role="42" ParentRole="">
+						<Attributes TagName="input" type="text"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR">
+							<Condition Operator="simple">
+								<Attributes TagName="div"/>
+							</Condition>
+						</Path>
+						<Path Path="PR">
+							<Condition Operator="simple">
+								<Attributes TagName="div"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText">
+							<!--Bootstrap textboxcoloradmin webpage-->
+						</Method>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_63" Enable="1">
+					<WhenToConsider Role="42" ParentRole="">
+						<Attributes TagName="input" type="email"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR">
+							<Condition Operator="simple">
+								<Attributes TagName="div"/>
+							</Condition>
+						</Path>
+						<Path Path="PR">
+							<Condition Operator="simple">
+								<Attributes TagName="div"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText">
+							<!--https://seantheme.com/color-admin/admin/html/form_elements.html-->
+						</Method>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_59" Enable="1">
+					<WhenToConsider Role="42" ParentRole="">
+						<Attributes TagName="input" type="text"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR">
+							<Condition Operator="simple">
+								<Attributes TagName="div"/>
+							</Condition>
+						</Path>
+						<Path Path="PR">
+							<Condition Operator="simple">
+								<Attributes TagName="div" className="form-group row"/>
+							</Condition>
+						</Path>
+						<Path Path="CH">
+							<Condition Operator="simple">
+								<Attributes TagName="label"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText">
+							<!--Bootstrap centric http://themicon.co/templates/?item=centric-->
+						</Method>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_64" Enable="1">
+					<WhenToConsider Role="42" ParentRole="">
+						<Attributes TagName="input"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR">
+							<Condition Operator="simple">
+								<Attributes TagName="div"/>
+							</Condition>
+						</Path>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="div" className="form-group row"/>
+							</Condition>
+						</Path>
+						<Path Path="CH">
+							<Condition Operator="simple">
+								<Attributes TagName="label"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText">
+							<!--http://themicon.co/theme/centric/v2.2/static-html5/validation.html-->
+						</Method>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_65" Enable="1">
+					<WhenToConsider Role="42" ParentRole="">
+						<Attributes TagName="input" type="password"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="NS-NS">
+							<Condition Operator="simple">
+								<Attributes TagName="label"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText">
+							<!--http://themicon.co/theme/centric/v2.2/static-html5/validation.html-->
+						</Method>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_66" Enable="1">
+					<WhenToConsider Role="42" ParentRole="">
+						<Attributes TagName="textarea"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="NS-NS">
+							<Condition Operator="simple">
+								<Attributes TagName="label"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText">
+							<!--http://themicon.co/theme/centric/v2.2/static-html5/material.html(biography textbox)-->
+						</Method>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_67" Enable="1">
+					<WhenToConsider Role="34" ParentRole="">
+						<Attributes TagName="select"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="NS-NS">
+							<Condition Operator="simple">
+								<Attributes TagName="label"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText">
+							<!--http://themicon.co/theme/centric/v2.2/static-html5/material.html-->
+						</Method>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_68" Enable="1">
+					<WhenToConsider Role="46" ParentRole="">
+						<Attributes TagName="span"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="div" className="form-group"/>
+							</Condition>
+						</Path>
+						<Path Path="CH">
+							<Condition Operator="simple">
+								<Attributes TagName="div"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText">
+							<!--https://ttskch.github.io/select2-bootstrap4-theme/-->
+						</Method>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_71" Enable="1">
+					<WhenToConsider Role="46" ParentRole="">
+						<Attributes TagName="b"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR">
+							<Condition Operator="simple">
+								<Attributes TagName="div"/>
+							</Condition>
+						</Path>
+						<Path Path="PR">
+							<Condition Operator="simple">
+								<Attributes TagName="a" className="chosen-single"/>
+							</Condition>
+						</Path>
+						<Path Path="PR">
+							<Condition Operator="simple">
+								<Attributes TagName="div"/>
+							</Condition>
+						</Path>
+						<Path Path="PR">
+							<Condition Operator="simple">
+								<Attributes TagName="div"/>
+							</Condition>
+						</Path>
+						<Path Path="CH">
+							<Condition Operator="simple">
+								<Attributes TagName="em"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText">
+							<!--https://harvesthq.github.io/chosen/(select this)-->
+						</Method>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_69" Enable="1">
+					<WhenToConsider Role="46" ParentRole="">
+						<Attributes TagName="select" className="select"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR">
+							<Condition Operator="simple">
+								<Attributes TagName="div"/>
+							</Condition>
+						</Path>
+						<Path Path="CH">
+							<Condition Operator="simple">
+								<Attributes TagName="em"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText">
+							<!--https://harvesthq.github.io/chosen/(Turns This)-->
+						</Method>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_70" Enable="1">
+					<WhenToConsider Role="46" ParentRole="">
+						<Attributes TagName="span"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR-PR">
+							<Condition Operator="simple">
+								<Attributes TagName="div"/>
+							</Condition>
+						</Path>
+						<Path Path="PR">
+							<Condition Operator="simple">
+								<Attributes TagName="div"/>
+							</Condition>
+						</Path>
+						<Path Path="CH">
+							<Condition Operator="simple">
+								<Attributes TagName="em"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText">
+							<!--https://harvesthq.github.io/chosen/(Into This)-->
+						</Method>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_71" Enable="1">
+					<WhenToConsider Role="43" ParentRole="">
+						<Attributes TagName="div"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="CH-CH">
+							<Condition Operator="simple">
+								<Attributes TagName="span"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText">
+							<!--https://portal.flynnrg.com/webdynpro/dispatcher/sap.com/tc~sec~ume~wd~enduser/LogonHelpApp#-->
+						</Method>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_72" Enable="1">
+					<WhenToConsider Role="44" ParentRole="">
+						<Attributes TagName="label"/>
+					</WhenToConsider>
+					<WhatToCall>
+						<Method Name="innerText">
+							<!--http://themicon.co/theme/mdangle/v1.0/static-html/app/form-standard.html-->
+						</Method>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_73" Enable="1">
+					<WhenToConsider Role="45" ParentRole="">
+						<Attributes TagName="label"/>
+					</WhenToConsider>
+					<WhatToCall>
+						<Method Name="innerText">
+							<!--http://themicon.co/theme/mdangle/v1.0/static-html/app/form-standard.html-->
+						</Method>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_74" Enable="1">
+					<WhenToConsider Role="44" ParentRole="">
+						<Attributes TagName="li"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="CH">
+							<Condition Operator="simple">
+								<Attributes TagName="div"/>
+							</Condition>
+						</Path>
+						<Path Path="NS">
+							<Condition Operator="simple">
+								<Attributes TagName="label"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText">
+							<!--http://icheck.fronteed.com/-->
+						</Method>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_75" Enable="1">
+					<WhenToConsider Role="45" ParentRole="">
+						<Attributes TagName="li"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="CH">
+							<Condition Operator="simple">
+								<Attributes TagName="div"/>
+							</Condition>
+						</Path>
+						<Path Path="NS">
+							<Condition Operator="simple">
+								<Attributes TagName="label"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText">
+							<!--http://icheck.fronteed.com/-->
+						</Method>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_76" Enable="1">
+					<WhenToConsider Role="42" ParentRole="">
+						<Attributes TagName="input" type="text"/>
+					</WhenToConsider>
+					<WhatToCall>
+						<Method Name="placeholder">
+							<!--https://www.edreams.com/offers/flights/airline/B6/jetblue-airways/?mktportal=bing&utm_id=bi_cmp-391106592_adg-1201766814523851_ad-75110520877891_kwd-75110612599830:aud-806162206:loc-90_dev-c_ext-_locphy-116072_mtype-e_ntw-o&utm_term=75110612599830&utm_content=1201766814523851&msclkid=40f62438c9a31a9af5cf7be11e3c3af4&utm_source=bing&utm_medium=cpc&utm_campaign=B-E-GB-FL-Airline%20Other-SEA-PC-L-->
+						</Method>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_77" Enable="1">
+					<WhenToConsider Role="42" ParentRole="">
+						<Attributes TagName="input"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="div"/>
+							</Condition>
+						</Path>
+						<Path Path="PS">
+							<Condition Operator="recursive">
+								<Attributes TagName="label"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText">
+							<!--https://play.google.com/store/paymentmethods-->
+						</Method>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_78" Enable="1">
+					<WhenToConsider Role="42" ParentRole="">
+						<Attributes TagName="input"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR-PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="div"/>
+							</Condition>
+						</Path>
+						<Path Path="CH">
+							<Condition Operator="recursive">
+								<Attributes TagName="span"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText">
+							<!--https://www.edreams.com/travel/secure/#details/-->
+						</Method>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_79" Enable="1">
+					<WhenToConsider Role="34" ParentRole="">
+						<Attributes TagName="select"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR-PR">
+							<Condition Operator="simple"/>
+						</Path>
+						<Path Path="CH">
+							<Condition Operator="recursive">
+								<Attributes TagName="span"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText">
+							<!--https://www.edreams.com/travel/secure/#details/-->
+						</Method>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_80" Enable="1">
+					<WhenToConsider Role="41" ParentRole="">
+						<Attributes TagName="td" className="x18w"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="CH">
+							<Condition Operator="simple">
+								<Attributes TagName="div"/>
+							</Condition>
+						</Path>
+						<Path Path="CH.1">
+							<Condition Operator="simple">
+								<Attributes TagName="span"/>
+							</Condition>
+						</Path>
+						<Path Path="CH.1">
+							<Condition Operator="simple">
+								<Attributes TagName="span"/>
+							</Condition>
+						</Path>
+						<Path Path="CH">
+							<Condition Operator="simple">
+								<Attributes TagName="span"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText">
+							<!--Philips : C:\Users\chaitra\Downloads\EpiplexIETable.html-->
+						</Method>
+					</WhatToCall>
+				</Rule>
+				<Rule Id="TL_81" Enable="1">
+					<WhenToConsider Role="46" ParentRole="">
+						<Attributes TagName="a" className="select"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR">
+							<Condition Operator="recursive">
+								<Attributes TagName="div"/>
+							</Condition>
+						</Path>
+						<Path Path="PS">
+							<Condition Operator="recursive">
+								<Attributes TagName="div"/>
+							</Condition>
+						</Path>
+						<Path Path="CH.1">
+							<Condition Operator="simple">
+								<Attributes TagName="span"/>
+							</Condition>
+						</Path>
+						<Path Path="CH">
+							<Condition Operator="simple">
+								<Attributes TagName="span"/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText">
+							<!--Philips : C:\Users\chaitra\Downloads\EpiplexIETable.html-->
+						</Method>
+					</WhatToCall>
+				</Rule>
+			</TraverseLogic>
+			<DefaultLogic>
+				<Rule Id="DL_6">
+					<Attributes Name="title"/>
+				</Rule>
+				<Rule Id="DL_7">
+					<Attributes Name="alt"/>
+				</Rule>
+				<Rule Id="DL_2">
+					<Attributes Name="Id"/>
+				</Rule>
+				<Rule Id="DL_3">
+					<Attributes Name="className"/>
+				</Rule>
+				<Rule Id="DL_4">
+					<Attributes Name="type"/>
+				</Rule>
+			</DefaultLogic>
+		</LabelIdentifier>
+		<DialogIdentifier>
+			<Rule Enable="1" Id="1">
+				<WhenToConsider Role="30" ParentRole="">
+					<Attributes TagName="A"/>
+				</WhenToConsider>
+				<WhereToGo>
+					<Path Path="PR">
+						<Condition Operator="recursive">
+							<Attributes TagName="div"/>
+						</Condition>
+					</Path>
+					<Path Path="PS">
+						<Condition Operator="simple"/>
+					</Path>
+					<Path Path="CH">
+						<Condition Operator="recursive">
+							<Attributes TagName="img"/>
+						</Condition>
+					</Path>
+					<Path Path="NS">
+						<Condition Operator="recursive">
+							<Attributes TagName="h3"/>
+						</Condition>
+					</Path>
+				</WhereToGo>
+				<WhatToCall>
+					<Method Name="innerText"/>
+				</WhatToCall>
+			</Rule>
+			<Rule Enable="1" Id="1">
+				<WhenToConsider Role="42" ParentRole="10">
+					<Attributes TagName="input"/>
+				</WhenToConsider>
+				<WhereToGo>
+					<Path Path="PR">
+						<Condition Operator="recursive">
+							<Attributes TagName="div" className="sidebarModuleBody"/>
+						</Condition>
+					</Path>
+					<Path Path="PS">
+						<Condition Operator="simple"/>
+					</Path>
+					<Path Path="CH">
+						<Condition Operator="recursive">
+							<Attributes TagName="h2"/>
+						</Condition>
+					</Path>
+				</WhereToGo>
+				<WhatToCall>
+					<Method Name="innerText"/>
+				</WhatToCall>
+			</Rule>
+			<Rule Enable="1" Id="1">
+				<WhenToConsider Role="44" ParentRole="">
+					<Attributes TagName="input"/>
+				</WhenToConsider>
+				<WhereToGo>
+					<Path Path="PR">
+						<Condition Operator="recursive">
+							<Attributes TagName="tbody"/>
+						</Condition>
+					</Path>
+					<Path Path="PR">
+						<Condition Operator="recursive">
+							<Attributes TagName="tbody"/>
+						</Condition>
+					</Path>
+					<Path Path="CH">
+						<Condition Operator="recursive">
+							<Attributes TagName="div"/>
+						</Condition>
+					</Path>
+				</WhereToGo>
+				<WhatToCall>
+					<Method Name="innerText"/>
+				</WhatToCall>
+			</Rule>
+			<Rule Enable="1" Id="1">
+				<WhenToConsider Role="40" ParentRole="">
+					<Attributes TagName="input"/>
+				</WhenToConsider>
+				<WhereToGo>
+					<Path Path="PR">
+						<Condition Operator="recursive">
+							<Attributes TagName="tbody"/>
+						</Condition>
+					</Path>
+					<Path Path="PR">
+						<Condition Operator="recursive">
+							<Attributes TagName="tbody"/>
+						</Condition>
+					</Path>
+					<Path Path="CH">
+						<Condition Operator="recursive">
+							<Attributes TagName="div"/>
+						</Condition>
+					</Path>
+				</WhereToGo>
+				<WhatToCall>
+					<Method Name="innerText"/>
+				</WhatToCall>
+			</Rule>
+			<Rule Enable="1" Id="1">
+				<WhenToConsider Role="30" ParentRole="">
+					<Attributes TagName="A"/>
+				</WhenToConsider>
+				<WhereToGo>
+					<Path Path="PR">
+						<Condition Operator="recursive">
+							<Attributes TagName="div" className="bSubBlock brandSecondaryBrd secondaryPalette"/>
+						</Condition>
+					</Path>
+					<Path Path="CH">
+						<Condition Operator="simple"/>
+					</Path>
+				</WhereToGo>
+				<WhatToCall>
+					<Method Name="innerText"/>
+				</WhatToCall>
+			</Rule>
+		</DialogIdentifier>
+		<PasswordIdentifier>
+			<Rule Enable="1" Id="1">
+				<WhenToConsider Role="42" ParentRole="">
+					<Attributes type="password"/>
+				</WhenToConsider>
+			</Rule>
+		</PasswordIdentifier>
+		<ControlDataIdentifier>
+			<BasedOnTags>
+			</BasedOnTags>
+			<BasedOnAttributes>
+				<Rule Enable="1" ValueType="textContent">
+					<CurrentInfo>
+						<Condition Operator="contains" className="|hj99tb KRoqRc editable wLWUAc-qyVylda|"/>
+					</CurrentInfo>
+				</Rule>
+				<Rule Enable="1" ValueType="innerText">
+					<CurrentInfo>
+						<Condition Operator="contains" className="|Am aiL Al editable LW-avf tS-tW|"/>
+					</CurrentInfo>
+				</Rule>
+			</BasedOnAttributes>
+		</ControlDataIdentifier>
+	</General>
+	<Custom Enable="1">
+		<Rule Enable="1" DomainName="eccides" QueryHeader="0" QueryTag="H1">
+			<RoleIdentifier>
+				<BasedOnTags>
+					<Rule Enable="1" CurrentRole="29" ParentRole="">
+						<CurrentInfo>
+							<Condition TagName="|td|"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="30" ParentRole="">
+						<CurrentInfo>
+							<Condition TagName="|A|"/>
+						</CurrentInfo>
+					</Rule>
+				</BasedOnTags>
+				<BasedOnAttributes>
+					<Rule Enable="1" CurrentRole="12" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="contains" className="|urMnuTxt|urMnuSub|urMnuColumn|urMnuRow|"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="57" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="contains" role="|menuitem|"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="42" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="contains" className="|pstxt|"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="43" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="contains" className="|urBtnCnt|"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="43" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="equals" className="|urImgBtn|"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="43" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="equals" ct="|B|"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="45" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="contains" className="|psrad|"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="46" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="contains" className="|pscmb|lsEdf3HlpBtnCoB|lsEdf3HlpBtnCoBRo|"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="46" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="equals" ct="|CB|"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="34" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="equals" role="|listitem|"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="34" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="contains" className="|urIlb2I|ILBI|"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="34" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="equals" ct="|TV|"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="29" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="equals" ctv="|C|"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="37" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="equals" role="|tab|"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="37" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="contains" className="|lsPnstTitleAlign|lsPnstLabelSel|lsPnstFirstMoreSel|lsPnstEndMoreSel|lsPnstLabelSelCollapse|lsPnstEndMore|lsPnstStart|lsPnstLabel|lsPnstTitleAlign|lsTbsLabel2Sel|lsTbsEndMore2Sel|lsTbsFirst2Sel|lsTbsLabel2|lsTbsStartEnd2Sel|lsTbsEndMore2|lsTbsStart2|"/>
+						</CurrentInfo>
+					</Rule>
+				</BasedOnAttributes>
+				<BasedOnTraverseLogic>
+					<Rule Enable="1" CurrentRole="29" ParentRole="">
+						<CurrentInfo>
+							<!-- Note: should starts-with and ends-with '|' -->
+							<Condition Operator="equals" ct="|TV|"/>
+						</CurrentInfo>
+						<ParentInfo>
+							<Condition Operator="equals" ctv="|C|"/>
+						</ParentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="43" ParentRole="">
+						<CurrentInfo>
+							<!-- Note: should starts-with and ends-with '|' -->
+							<Condition TagName="|span|"/>
+						</CurrentInfo>
+						<TraversalInfo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<!-- Note : Attribute value Case sensitive. -->
+									<Attributes TagName="a" role="button"/>
+								</Condition>
+							</Path>
+						</TraversalInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="43" ParentRole="">
+						<CurrentInfo>
+							<!-- Note: should starts-with and ends-with '|' -->
+							<Condition TagName="|a|"/>
+						</CurrentInfo>
+						<TraversalInfo>
+							<Path Path="CH">
+								<Condition Operator="recursive">
+									<!-- Note : Attribute value Case sensitive. -->
+									<Attributes TagName="img" class="urImgBtn"/>
+								</Condition>
+							</Path>
+						</TraversalInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="44" ParentRole="">
+						<CurrentInfo>
+							<!-- Note: should starts-with and ends-with '|' -->
+							<Condition Operator="contains" className="|urNoUserSelect|"/>
+						</CurrentInfo>
+						<TraversalInfo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<!-- Note : Attribute value Case sensitive. -->
+									<Attributes TagName="span" className="urCWhl"/>
+								</Condition>
+							</Path>
+							<Path Path="CH">
+								<Condition Operator="recursive">
+									<!-- Note : Attribute value Case sensitive. -->
+									<Attributes TagName="input" type="checkbox"/>
+								</Condition>
+							</Path>
+						</TraversalInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="44" ParentRole="">
+						<CurrentInfo>
+							<!-- Note: should starts-with and ends-with '|' -->
+							<Condition Operator="contains" className="|urNoUserSelect|"/>
+						</CurrentInfo>
+						<TraversalInfo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<!-- Note : Attribute value Case sensitive. -->
+									<Attributes TagName="span" role="checkbox"/>
+								</Condition>
+							</Path>
+							<Path Path="PS">
+								<Condition Operator="recursive">
+									<!-- Note : Attribute value Case sensitive. -->
+									<Attributes TagName="input" type="checkbox"/>
+								</Condition>
+							</Path>
+						</TraversalInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="44" ParentRole="">
+						<CurrentInfo>
+							<!-- Note: should starts-with and ends-with '|' -->
+							<Condition Operator="contains" TagName="|span|" className="|pschk|"/>
+						</CurrentInfo>
+						<TraversalInfo>
+							<Path Path="PS">
+								<Condition Operator="recursive">
+									<!-- Note : Attribute value Case sensitive. -->
+									<Attributes TagName="input" type="checkbox"/>
+								</Condition>
+							</Path>
+						</TraversalInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="44" ParentRole="">
+						<CurrentInfo>
+							<!-- Note: should starts-with and ends-with '|' -->
+							<Condition Operator="contains" className="|lsCBStdTxt|"/>
+						</CurrentInfo>
+						<TraversalInfo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<!-- Note : Attribute value Case sensitive. -->
+									<Attributes TagName="span" role="checkbox"/>
+								</Condition>
+							</Path>
+							<Path Path="PS">
+								<Condition Operator="recursive">
+									<!-- Note : Attribute value Case sensitive. -->
+									<Attributes TagName="input" type="checkbox"/>
+								</Condition>
+							</Path>
+						</TraversalInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="29" ParentRole="">
+						<CurrentInfo>
+							<!-- Note: should starts-with and ends-with '|' -->
+							<Condition TagName="|label|"/>
+						</CurrentInfo>
+						<ParentInfo>
+							<Condition TagName="|td|"/>
+						</ParentInfo>
+					</Rule>
+				</BasedOnTraverseLogic>
+			</RoleIdentifier>
+		</Rule>
+		<Rule Enable="1" DomainName="outlook.live.com" QueryHeader="0" QueryTag="H1">
+			<RoleIdentifier>
+				<BasedOnTraverseLogic>
+					<Rule Enable="1" CurrentRole="43" ParentRole="">
+						<CurrentInfo>
+							<!-- Note: should starts-with and ends-with '|' -->
+							<Condition TagName="|span|div|"/>
+						</CurrentInfo>
+						<TraversalInfo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<!-- Note : Attribute value Case sensitive. -->
+									<Attributes TagName="div" role="treeitem"/>
+								</Condition>
+							</Path>
+						</TraversalInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="34" ParentRole="">
+						<CurrentInfo>
+							<!-- Note: should starts-with and ends-with '|' -->
+							<Condition TagName="|span|div|"/>
+						</CurrentInfo>
+						<TraversalInfo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<!-- Note : Attribute value Case sensitive. -->
+									<Attributes TagName="div" role="menuitem"/>
+								</Condition>
+							</Path>
+						</TraversalInfo>
+					</Rule>
+				</BasedOnTraverseLogic>
+				<BasedOnAttributes>
+					<Rule Enable="1" CurrentRole="46" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="contains" className="|ms-Button--hasMenu|ms-Dropdown-title|"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="34" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="equals" role="menuitem"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="43" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="equals" role="treeitem"/>
+						</CurrentInfo>
+					</Rule>
+				</BasedOnAttributes>
+			</RoleIdentifier>
+		</Rule>
+		<Rule Enable="1" DomainName="mail.google.com" QueryHeader="0" QueryTag="H1">
+			<RoleIdentifier>
+				<BasedOnAttributes>
+					<Rule Enable="1" CurrentRole="43" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="equals" role="|link|presentation|"/>
+						</CurrentInfo>
+					</Rule>
+				</BasedOnAttributes>
+			</RoleIdentifier>
+		</Rule>
+		<Rule Enable="1" DomainName="chat.google.com" QueryHeader="0" QueryTag="H1">
+			<RoleIdentifier>
+				<BasedOnAttributes>
+					<Rule Enable="1" CurrentRole="43" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="equals" role="presentation"/>
+						</CurrentInfo>
+					</Rule>
+				</BasedOnAttributes>
+			</RoleIdentifier>
+		</Rule>
+		<Rule Enable="1" DomainName="app.staging.buyco.co" QueryHeader="0" QueryTag="H1">
+			<RoleIdentifier>
+				<BasedOnTraverseLogic>
+					<Rule Enable="1" CurrentRole="29" ParentRole="">
+						<CurrentInfo>
+							<!-- Note: should starts-with and ends-with '|' -->
+							<Condition TagName="|div|"/>
+						</CurrentInfo>
+						<TraversalInfo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<!-- Note : Attribute value Case sensitive. -->
+									<Attributes TagName="div" role="rowgroup">
+										<!--ab-inbev: https://app.staging.buyco.co/embedded/network/organizations/4-->
+									</Attributes>
+								</Condition>
+							</Path>
+						</TraversalInfo>
+					</Rule>
+				</BasedOnTraverseLogic>
+			</RoleIdentifier>
+		</Rule>
+		<Rule Enable="1" DomainName="trello.com" QueryHeader="0" QueryTag="H1">
+			<RoleIdentifier>
+				<BasedOnTraverseLogic>
+					<Rule Enable="1" CurrentRole="44" ParentRole="">
+						<CurrentInfo>
+							<!-- Note: should starts-with and ends-with '|' -->
+							<Condition TagName="|svg|div|span|"/>
+						</CurrentInfo>
+						<TraversalInfo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<!-- Note : Attribute value Case sensitive. -->
+									<Attributes TagName="label"/>
+								</Condition>
+							</Path>
+							<Path Path="CH">
+								<Condition Operator="recursive">
+									<!-- Note : Attribute value Case sensitive. -->
+									<Attributes TagName="input" type="checkbox"/>
+								</Condition>
+							</Path>
+						</TraversalInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="46" ParentRole="">
+						<CurrentInfo>
+							<!-- Note: should starts-with and ends-with '|' -->
+							<Condition TagName="|div|"/>
+						</CurrentInfo>
+						<TraversalInfo>
+							<Path Path="NS">
+								<Condition Operator="recursive">
+									<!-- Note : Attribute value Case sensitive. -->
+									<Attributes TagName="input" aria-autocomplete="list"/>
+								</Condition>
+							</Path>
+						</TraversalInfo>
+					</Rule>
+				</BasedOnTraverseLogic>
+				<BasedOnAttributes>
+					<Rule Enable="1" CurrentRole="43" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="equals" role="presentation"/>
+						</CurrentInfo>
+					</Rule>
+				</BasedOnAttributes>
+			</RoleIdentifier>
+		</Rule>
+		<Rule Enable="1" DomainName="sapsolutionmanagerdemo" QueryHeader="0" QueryTag="H1">
+			<RoleIdentifier>
+				<BasedOnTags/>
+				<BasedOnAttributes>
+					<Rule Enable="1" CurrentRole="44" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="contains" className="|th-sapcb-img|"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="42" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="equals" className="|th-if th-if-icon|"/>
+							<Condition Operator="equals" autocomplete="|off|"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="46" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="equals" className="|th-if th-if-icon|th-if th-ip-dfd th-if-icon|th-ip-img|"/>
+							<Condition Operator="equals" autocomplete="|on|"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="44" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="equals" className="|checkboximage|"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="45" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="equals" className="|th-bg-box|"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="34" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="equals" className="|th-cal-row-td|th-hb-item|"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="41" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="equals" className="|urNLItmTxt|"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="25" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="equals" className="|urFontRel|"/>
+						</CurrentInfo>
+					</Rule>
+				</BasedOnAttributes>
+			</RoleIdentifier>
+			<LabelIdentifier>
+				<StandardLogic/>
+				<TraverseLogic>
+					<Rule Id="TL_2" Enable="1">
+						<WhenToConsider Role="41" ParentRole="">
+							<Attributes TagName="span"/>
+						</WhenToConsider>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_4" Enable="1">
+						<WhenToConsider Role="46" ParentRole="">
+							<Attributes className="th-if th-if-icon" TagName="input"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="div" className="th-ddlb-container"/>
+								</Condition>
+							</Path>
+							<Path Path="PS">
+								<Condition Operator="recursive">
+									<Attributes TagName="label"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_6" Enable="1">
+						<WhenToConsider Role="46" ParentRole="">
+							<Attributes className="th-if th-if-icon" TagName="input"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="td" className="th-clr-tb-table-tb1"/>
+								</Condition>
+							</Path>
+							<Path Path="PS-CH">
+								<Condition Operator="simple"/>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_7" Enable="1">
+						<WhenToConsider Role="41" ParentRole="">
+							<Attributes TagName="label"/>
+						</WhenToConsider>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_8" Enable="1">
+						<WhenToConsider Role="46" ParentRole="">
+							<Attributes className="th-if th-ip-dfd th-if-icon" TagName="input"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="td" className="th-gr-td"/>
+								</Condition>
+							</Path>
+							<Path Path="PS">
+								<Condition Operator="simple"/>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_9" Enable="1">
+						<WhenToConsider Role="46" ParentRole="">
+							<Attributes className="th-ip-img" TagName="img"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="td" className="ch-grid-cell"/>
+								</Condition>
+							</Path>
+							<Path Path="PS-CH">
+								<Condition Operator="simple">
+									<Attributes TagName="label"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_10" Enable="1">
+						<WhenToConsider Role="46" ParentRole="">
+							<Attributes className="th-ip-img" TagName="img"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="div" className="th-ddlb-container"/>
+								</Condition>
+							</Path>
+							<Path Path="PS">
+								<Condition Operator="recursive">
+									<Attributes TagName="label"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_11" Enable="1">
+						<WhenToConsider Role="46" ParentRole="">
+							<Attributes className="th-ip-img" TagName="img"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="td" className="th-gr-td"/>
+								</Condition>
+							</Path>
+							<Path Path="PS">
+								<Condition Operator="simple"/>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_12" Enable="1">
+						<WhenToConsider Role="46" ParentRole="">
+							<Attributes className="th-ip-img" TagName="img"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="td" className="th-clr-tb-table-tb1"/>
+								</Condition>
+							</Path>
+							<Path Path="PS-CH">
+								<Condition Operator="simple"/>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_13" Enable="1">
+						<WhenToConsider Role="45" ParentRole="">
+							<Attributes TagName="input"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="NS">
+								<Condition Operator="simple"/>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_15" Enable="1">
+						<WhenToConsider Role="46" ParentRole="">
+							<Attributes TagName="input"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="td" className="th-gr-td"/>
+								</Condition>
+							</Path>
+							<Path Path="CH">
+								<Condition Operator="simple">
+									<Attributes TagName="tr"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_16" Enable="1">
+						<WhenToConsider Role="42" ParentRole="">
+							<Attributes className="th-sif" TagName="input"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="tr" className="th-clr-tr th-clr-row th-clr-row-nsel"/>
+								</Condition>
+							</Path>
+							<Path Path="CH.1">
+								<Condition Operator="simple">
+									<Attributes TagName="tr"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_17" Enable="1">
+						<WhenToConsider Role="34" ParentRole="">
+							<Attributes className="th-cal-row-td" TagName="td"/>
+						</WhenToConsider>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_18" Enable="1">
+						<WhenToConsider Role="34" ParentRole="">
+							<Attributes className="th-hb-item" TagName="td"/>
+						</WhenToConsider>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_1" Enable="1">
+						<WhenToConsider Role="30" ParentRole="">
+							<Attributes TagName="A"/>
+						</WhenToConsider>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_19" Enable="1">
+						<WhenToConsider Role="37" ParentRole="">
+							<Attributes className="lsTbsLabel2"/>
+						</WhenToConsider>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_20" Enable="1">
+						<WhenToConsider Role="41" ParentRole="">
+							<Attributes TagName="div" className="urNLItmTxt"/>
+						</WhenToConsider>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_21" Enable="1">
+						<WhenToConsider Role="25" ParentRole="">
+							<Attributes className="urFontRel"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="CH">
+								<Condition Operator="recursive">
+									<Attributes TagName="span"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_22" Enable="1">
+						<WhenToConsider Role="46" ParentRole="">
+							<Attributes className="UrCImgOff" TagName="input"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="simple">
+									<Attributes TagName="tr" className="th-clr-tr th-clr-row th-clr-row-nsel"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_23" Enable="1">
+						<WhenToConsider Role="46" ParentRole="">
+							<Attributes className="UrCImgOn" TagName="input"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="simple">
+									<Attributes TagName="tr" className="th-clr-tr th-clr-row th-clr-row-nsel"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_24" Enable="1">
+						<WhenToConsider Role="45" ParentRole="">
+							<Attributes className="UrRImgOn" TagName="input"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="simple">
+									<Attributes TagName="tr" className="th-clr-tr th-clr-row th-clr-row-nsel"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_25" Enable="1">
+						<WhenToConsider Role="45" ParentRole="">
+							<Attributes className="UrRImgOff" TagName="input"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="simple">
+									<Attributes TagName="tr" className="th-clr-tr th-clr-row th-clr-row-nsel"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Enable="1" Id="TL_26">
+						<WhenToConsider Role="44" ParentRole="">
+							<Attributes TagName="img" className="th-sapcb-img"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR-NS">
+								<Condition Operator="simple "/>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Enable="1" Id="TL_27">
+						<WhenToConsider Role="45" ParentRole="">
+							<Attributes TagName="input" className="th-bg-box"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="NS">
+								<Condition Operator="simple"/>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+				</TraverseLogic>
+				<DefaultLogic>
+					<Rule Id="DL_6">
+						<Attributes Name="title"/>
+					</Rule>
+					<Rule Id="DL_7">
+						<Attributes Name="alt"/>
+					</Rule>
+					<Rule Id="DL_2">
+						<Attributes Name="Id"/>
+					</Rule>
+					<Rule Id="DL_3">
+						<Attributes Name="className"/>
+					</Rule>
+					<Rule Id="DL_4">
+						<Attributes Name="type"/>
+					</Rule>
+				</DefaultLogic>
+			</LabelIdentifier>
+			<DialogIdentifier>
+				<Rule Enable="1" Id="1">
+					<WhenToConsider Role="44" ParentRole="">
+						<Attributes TagName="a"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR-PR-PS">
+							<Condition Operator="simple ">
+								<Attributes TagName="td" classname=""/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText"/>
+					</WhatToCall>
+				</Rule>
+			</DialogIdentifier>
+			<PasswordIdentifier/>
+		</Rule>
+		<Rule Enable="1" DomainName="sdn.sap.com" QueryHeader="0" QueryTag="H1">
+			<RoleIdentifier>
+				<BasedOnTags/>
+				<BasedOnAttributes>
+					<Rule Enable="1" CurrentRole="46" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="equals" className="|th-if th-if-icon|th-if th-ip-dfd th-if-icon|th-ip-img|"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="34" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="equals" className="|th-cal-row-td|"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="34" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="equals" className="|th-hb-item|"/>
+						</CurrentInfo>
+					</Rule>
+				</BasedOnAttributes>
+			</RoleIdentifier>
+			<LabelIdentifier>
+				<StandardLogic>
+					<Rule Id="SL_1">
+						<Attributes From="id" To="htmlfor" Operator="contains"/>
+					</Rule>
+					<Rule Id="SL_2">
+						<Attributes From="id" To="f" Operator="contains">
+							<!--Salesforce User Name and Password identification-->
+						</Attributes>
+					</Rule>
+				</StandardLogic>
+				<TraverseLogic>
+					<Rule Id="TL_2" Enable="1">
+						<WhenToConsider Role="41" ParentRole="">
+							<Attributes TagName="span"/>
+						</WhenToConsider>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_4" Enable="1">
+						<WhenToConsider Role="46" ParentRole="">
+							<Attributes className="th-if th-if-icon" TagName="input"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="div" className="th-ddlb-container"/>
+								</Condition>
+							</Path>
+							<Path Path="PS">
+								<Condition Operator="recursive">
+									<Attributes TagName="label"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_6" Enable="1">
+						<WhenToConsider Role="46" ParentRole="">
+							<Attributes className="th-if th-if-icon" TagName="input"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="td" className="th-clr-tb-table-tb1"/>
+								</Condition>
+							</Path>
+							<Path Path="PS-CH">
+								<Condition Operator="simple"/>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_7" Enable="1">
+						<WhenToConsider Role="41" ParentRole="">
+							<Attributes TagName="label"/>
+						</WhenToConsider>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_8" Enable="1">
+						<WhenToConsider Role="46" ParentRole="">
+							<Attributes className="th-if th-ip-dfd th-if-icon" TagName="input"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="td" className="th-gr-td"/>
+								</Condition>
+							</Path>
+							<Path Path="PS">
+								<Condition Operator="simple"/>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_9" Enable="1">
+						<WhenToConsider Role="46" ParentRole="">
+							<Attributes className="th-ip-img" TagName="img"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="td" className="ch-grid-cell"/>
+								</Condition>
+							</Path>
+							<Path Path="PS-CH">
+								<Condition Operator="simple">
+									<Attributes TagName="label"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_10" Enable="1">
+						<WhenToConsider Role="46" ParentRole="">
+							<Attributes className="th-ip-img" TagName="img"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="div" className="th-ddlb-container"/>
+								</Condition>
+							</Path>
+							<Path Path="PS">
+								<Condition Operator="recursive">
+									<Attributes TagName="label"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_11" Enable="1">
+						<WhenToConsider Role="46" ParentRole="">
+							<Attributes className="th-ip-img" TagName="img"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="td" className="th-gr-td"/>
+								</Condition>
+							</Path>
+							<Path Path="PS">
+								<Condition Operator="simple"/>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_12" Enable="1">
+						<WhenToConsider Role="46" ParentRole="">
+							<Attributes className="th-ip-img" TagName="img"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="td" className="th-clr-tb-table-tb1"/>
+								</Condition>
+							</Path>
+							<Path Path="PS-CH">
+								<Condition Operator="simple"/>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_13" Enable="1">
+						<WhenToConsider Role="45" ParentRole="">
+							<Attributes TagName="input"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="NS">
+								<Condition Operator="simple"/>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_14" Enable="1">
+						<WhenToConsider Role="42" ParentRole="">
+							<Attributes TagName="input"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="tr"/>
+								</Condition>
+							</Path>
+							<Path Path="CH-CH">
+								<Condition Operator="simple">
+									<Attributes TagName="tr"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_15" Enable="1">
+						<WhenToConsider Role="46" ParentRole="">
+							<Attributes TagName="input"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="td" className="th-gr-td"/>
+								</Condition>
+							</Path>
+							<Path Path="CH">
+								<Condition Operator="simple">
+									<Attributes TagName="tr"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_16" Enable="1">
+						<WhenToConsider Role="42" ParentRole="">
+							<Attributes className="th-sif" TagName="input"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="tr" className="th-clr-tr th-clr-row th-clr-row-nsel"/>
+								</Condition>
+							</Path>
+							<Path Path="CH.1">
+								<Condition Operator="simple">
+									<Attributes TagName="tr"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_17" Enable="1">
+						<WhenToConsider Role="34" ParentRole="">
+							<Attributes className="th-cal-row-td" TagName="td"/>
+						</WhenToConsider>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_18" Enable="1">
+						<WhenToConsider Role="34" ParentRole="">
+							<Attributes className="th-hb-item" TagName="td"/>
+						</WhenToConsider>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_1" Enable="1">
+						<WhenToConsider Role="30" ParentRole="">
+							<Attributes TagName="A"/>
+						</WhenToConsider>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_19" Enable="1">
+						<WhenToConsider Role="37" ParentRole="">
+							<Attributes className="lsTbsLabel2"/>
+						</WhenToConsider>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_20" Enable="1">
+						<WhenToConsider Role="44" ParentRole="">
+							<Attributes tagName="input"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="tr"/>
+								</Condition>
+							</Path>
+							<Path Path="CH">
+								<Condition Operator="simple">
+									<Attributes TagName="tr"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_21" Enable="1">
+						<WhenToConsider Role="42" ParentRole="">
+							<Attributes tagName="input"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="tr"/>
+								</Condition>
+							</Path>
+							<Path Path="CH">
+								<Condition Operator="simple">
+									<Attributes TagName="tr"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+				</TraverseLogic>
+				<DefaultLogic>
+					<Rule Id="DL_6">
+						<Attributes Name="title"/>
+					</Rule>
+					<Rule Id="DL_7">
+						<Attributes Name="alt"/>
+					</Rule>
+					<Rule Id="DL_2">
+						<Attributes Name="Id"/>
+					</Rule>
+					<Rule Id="DL_3">
+						<Attributes Name="className"/>
+					</Rule>
+					<Rule Id="DL_4">
+						<Attributes Name="type"/>
+					</Rule>
+				</DefaultLogic>
+			</LabelIdentifier>
+			<DialogIdentifier>
+				<Rule Enable="1" Id="1">
+					<WhenToConsider Role="44" ParentRole="">
+						<Attributes TagName="a"/>
+					</WhenToConsider>
+					<WhereToGo>
+						<Path Path="PR-PR-PS">
+							<Condition Operator="simple ">
+								<Attributes TagName="td" classname=""/>
+							</Condition>
+						</Path>
+					</WhereToGo>
+					<WhatToCall>
+						<Method Name="innerText"/>
+					</WhatToCall>
+				</Rule>
+			</DialogIdentifier>
+			<PasswordIdentifier/>
+		</Rule>
+		<Rule Enable="1" DomainName="sharepoint" QueryHeader="0" QueryTag="H1">
+			<RoleIdentifier>
+				<BasedOnTags/>
+				<BasedOnAttributes>
+					<Rule Enable="1" CurrentRole="42" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="contains" className="|ms-inputuserfield|ms-rtestate-write ms-rteflags-0 ms-rtestate-field|"/>
+						</CurrentInfo>
+					</Rule>
+				</BasedOnAttributes>
+			</RoleIdentifier>
+			<LabelIdentifier>
+				<StandardLogic/>
+				<TraverseLogic>
+					<Rule Id="TL_30" Enable="1">
+						<WhenToConsider Role="42" ParentRole="">
+							<Attributes TagName="div" className="ms-inputuserfield"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="td" className="ms-formbody"/>
+								</Condition>
+							</Path>
+							<Path Path="PS">
+								<Condition Operator="recursive">
+									<Attributes TagName="td" className="ms-formlabel"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+				</TraverseLogic>
+				<DefaultLogic>
+					<Rule Id="DL_6">
+						<Attributes Name="title"/>
+					</Rule>
+					<Rule Id="DL_7">
+						<Attributes Name="alt"/>
+					</Rule>
+					<Rule Id="DL_2">
+						<Attributes Name="Id"/>
+					</Rule>
+					<Rule Id="DL_3">
+						<Attributes Name="className"/>
+					</Rule>
+					<Rule Id="DL_4">
+						<Attributes Name="type"/>
+					</Rule>
+				</DefaultLogic>
+			</LabelIdentifier>
+			<DialogIdentifier/>
+			<PasswordIdentifier/>
+		</Rule>
+		<Rule Enable="1" DomainName="hsbc" QueryHeader="0" QueryTag="H1">
+			<RoleIdentifier>
+				<BasedOnTags/>
+				<BasedOnAttributes>
+					<Rule Enable="1" CurrentRole="42" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="contains" className="|txtDiv_mandatory|"/>
+						</CurrentInfo>
+					</Rule>
+				</BasedOnAttributes>
+			</RoleIdentifier>
+			<LabelIdentifier>
+				<StandardLogic/>
+				<TraverseLogic>
+					<Rule Id="TL_30" Enable="1">
+						<WhenToConsider Role="42" ParentRole="">
+							<Attributes TagName="input" className="txtDiv_mandatory"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="span" className="NCSParent"/>
+								</Condition>
+							</Path>
+							<Path Path="PR-PS-CH">
+								<Condition Operator="simple">
+									<Attributes TagName="label"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_31" Enable="1">
+						<WhenToConsider Role="34" ParentRole="">
+							<Attributes TagName="li" className="listStyle"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="simple">
+									<Attributes TagName="div" className="dropDownDiv_mandatory"/>
+								</Condition>
+							</Path>
+							<Path Path="NS">
+								<Condition Operator="recursive">
+									<Attributes TagName="form" id="ANCQckAnncS"/>
+								</Condition>
+							</Path>
+							<Path Path="CH">
+								<Condition Operator="recursive">
+									<Attributes TagName="fieldset" className="Crudframe"/>
+								</Condition>
+							</Path>
+							<Path Path="CH">
+								<Condition Operator="recursive">
+									<Attributes TagName="div" id="CRUDdiv_ctx1"/>
+								</Condition>
+							</Path>
+							<Path Path="CH">
+								<Condition Operator="recursive">
+									<Attributes TagName="table" className="CrudTable"/>
+								</Condition>
+							</Path>
+							<Path Path="CH">
+								<Condition Operator="recursive">
+									<Attributes TagName="td" className="crudFld"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+				</TraverseLogic>
+				<DefaultLogic/>
+			</LabelIdentifier>
+			<DialogIdentifier/>
+			<PasswordIdentifier/>
+		</Rule>
+		<Rule Enable="1" DomainName="websitetestlink" QueryHeader="0" QueryTag="H1">
+			<RoleIdentifier>
+				<BasedOnTags>
+					<Rule Enable="1" CurrentRole="29" ParentRole="10">
+						<CurrentInfo>
+							<Condition Operator="contains" className="|cell|">
+							</Condition>
+						</CurrentInfo>
+					</Rule>
+				</BasedOnTags>
+			</RoleIdentifier>
+		</Rule>
+		<Rule Enable="1" DomainName="zoho" QueryHeader="0" QueryTag="H1">
+			<RoleIdentifier>
+				<BasedOnTags>
+					<Rule Enable="1" CurrentRole="46" ParentRole="">
+						<CurrentInfo>
+							<Condition TagName="|lyte-input|"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="34" ParentRole="">
+						<CurrentInfo>
+							<Condition TagName="|lyte-drop-item|"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="43" ParentRole="">
+						<CurrentInfo>
+							<Condition TagName="|lyte-yield|lyte-text|lyte-drop-button|"/>
+						</CurrentInfo>
+					</Rule>
+				</BasedOnTags>
+				<BasedOnAttributes>
+					<Rule Enable="1" CurrentRole="46" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="contains" className="|fld-lyteField|field-input dropdown-picklist blur-item |formassignpopup-assignAgentTxt zd|dIB vmiddle newSelect searchNewTemp|field-input blur-item|zcl-tab-item|zd_v2-formassignpopup-assignAgentTxt|lyteMarginRight lyteDropdownLabel|drpdnmnu|">
+							</Condition>
+							<Condition Operator="contains" className="|selectbox basic_selectbox|"/>
+							<Condition Operator="equals" role="|MenuItem|"/>
+							<!-- 	https://bigin.zoho.in/bigin/org60019101412/Home?TODO=addUser&#/deals/kanban/434507000000029615?pipeline=434507000000000173&sub_pipeline=434507000000262714 "Create deal page combo box" -->
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="43" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="contains" className="|actionbutton|heading-reset|double-btn-text|lyte-button|crmCvDropdownHighlight|zd_v2-viewspopup-subtitle zd|">
+							</Condition>
+							<!-- https://desk.zoho.in/agent/testing3e/testing3e/contacts/details/138600000000190029/happinessrating -->
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="37" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="contains" className="|ZRSHome-nav-tab|lyteTabTitleLabel ux-tab-label|tab-notification-count|dv-main-sec-rl-tab|tabText|"/>
+							<!-- https://analytics.zoho.in/ZDBHome.cc -->
+							<!-- https://bigin.zoho.in/bigin/org60019101412/Home?TODO=addUser&#/deals/434507000000262735?section=timeline "Timeline, Notes, Activities tabs" -->
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="42" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="equals" className="|username|name|"/>
+							<!-- https://accounts.zoho.in/signin?servicename=AaaServer&serviceurl=https%3A%2F%2Faccounts.zoho.in%2Fhome -->
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="30" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="contains" className="|notyoulink|addnew hide|addnew_account_heading addnew half|addTimeEntry|mfa_setupnow|view_more hide|"/>
+						</CurrentInfo>
+						<!-- https://accounts.zoho.in/signin?servicename=AaaServer&serviceurl=https%3A%2F%2Faccounts.zoho.in%2Fhome -->
+						<!-- https://accounts.zoho.in/home#multiTFA/modes "SetupNow link" -->
+						<!-- https://accounts.zoho.in/home#sessions/userapplogins "View more" link -->
+					</Rule>
+					<Rule Enable="1" CurrentRole="86" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="contains" className="|menuitem|ellipsis|menu|submenu|LoginDetail__signin commonStyle__cursor commonStyle__overflowDotted LoginDetail__userLog globalSignin|lyteItem lyteMenuActive|lyte-nav-item|bigin-sprite nav|flexDirColumn justifyCenter|">
+							</Condition>
+						</CurrentInfo>
+						<!-- https://analytics.zoho.in/ZDBHome.cc -->
+						<!-- https://help.zoho.com/portal/en/home "Sign In menu"-->
+						<!-- https://desk.zoho.in/agent/testing3e/testing3e/contacts/list/anonymous-contacts -->
+					</Rule>
+				</BasedOnAttributes>
+				<BasedOnTraverseLogic>
+					<Rule Enable="1" CurrentRole="46" ParentRole="">
+						<CurrentInfo>
+							<Condition TagName="|span|"/>
+						</CurrentInfo>
+						<TraversalInfo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="div"/>
+								</Condition>
+							</Path>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="div" classname="|uvselect select_container format|"/>
+								</Condition>
+								<!-- https://accounts.zoho.in/home#setting/preference -->
+							</Path>
+						</TraversalInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="46" ParentRole="">
+						<CurrentInfo>
+							<Condition TagName="|span|div|svg|path|i|"/>
+						</CurrentInfo>
+						<TraversalInfo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="div" role="combobox"/>
+								</Condition>
+							</Path>
+						</TraversalInfo>
+						<!-- https://books.zoho.in/app/60030676278#/home/gettingstarted -->
+					</Rule>
+					<Rule Enable="1" CurrentRole="34" ParentRole="">
+						<CurrentInfo>
+							<Condition TagName="|p|li|div|"/>
+						</CurrentInfo>
+						<TraversalInfo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="li" role="option"/>
+								</Condition>
+							</Path>
+						</TraversalInfo>
+					</Rule>
+				</BasedOnTraverseLogic>
+			</RoleIdentifier>
+		</Rule>
+		<Rule Enable="1" DomainName="app.netsuite" QueryHeader="0" QueryTag="H1">
+			<RoleIdentifier>
+				<BasedOnAttributes>
+					<Rule Enable="1" CurrentRole="34" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="equals" className="|dropdownSelected|uif801 uif803 uif805 uif812|"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="46" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="equals" className="|uir-pagination-label|"/>
+							<Condition Operator="equals" role="|combobox|"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="30" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="contains" className="|ns-link-category|"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="92" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="equals" className="|textnolink uir-popup-cal-cell-text|"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="43" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="equals" className="|ns-button pgBntB |"/>
+							<Condition Operator="equals" data-action="|switchView|"/>
+							<Condition Operator="contains" className="|ns-content-manager-item ui-draggable ui-draggable-handle|"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="86" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="equals" data-widget="|MenuItemContent|StackPanel|"/>
+						</CurrentInfo>
+					</Rule>
+				</BasedOnAttributes>
+				<BasedOnTraverseLogic>
+					<Rule Enable="1" CurrentRole="92" ParentRole="">
+						<CurrentInfo>
+							<Condition TagName="|a|"/>
+						</CurrentInfo>
+						<TraversalInfo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="td" classname="|textnolink uir-popup-cal-cell-text|uir-popup-cal-cell|"/>
+								</Condition>
+							</Path>
+						</TraversalInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="86" ParentRole="">
+						<CurrentInfo>
+							<Condition TagName="|span|"/>
+						</CurrentInfo>
+						<TraversalInfo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="div"/>
+								</Condition>
+							</Path>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="a"/>
+								</Condition>
+							</Path>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="div" role="menuitem"/>
+								</Condition>
+							</Path>
+						</TraversalInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="43" ParentRole="">
+						<CurrentInfo>
+							<Condition TagName="|a|"/>
+						</CurrentInfo>
+						<TraversalInfo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="li" data-nsps-type="menu_top"/>
+								</Condition>
+							</Path>
+						</TraversalInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="94" ParentRole="">
+						<CurrentInfo>
+							<Condition TagName="|span|"/>
+						</CurrentInfo>
+						<TraversalInfo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="div" className="treeNodeRow"/>
+								</Condition>
+							</Path>
+						</TraversalInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="30" ParentRole="">
+						<CurrentInfo>
+							<Condition TagName="|span|"/>
+						</CurrentInfo>
+						<TraversalInfo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="a"/>
+								</Condition>
+							</Path>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="span" className="ns-desc text-overflow-ellipsis"/>
+								</Condition>
+							</Path>
+						</TraversalInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="46" ParentRole="">
+						<CurrentInfo>
+							<Condition TagName="|span|"/>
+						</CurrentInfo>
+						<TraversalInfo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="div"/>
+								</Condition>
+							</Path>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="div" role="combobox"/>
+								</Condition>
+							</Path>
+						</TraversalInfo>
+					</Rule>
+				</BasedOnTraverseLogic>
+			</RoleIdentifier>
+			<LabelIdentifier>
+				<TraverseLogic>
+					<Rule Id="TL_1" Enable="1">
+						<WhenToConsider Role="42" ParentRole="">
+							<Attributes TagName="input"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="span" className="uir-field"/>
+								</Condition>
+							</Path>
+							<Path Path="PS">
+								<Condition Operator="simple">
+									<Attributes TagName="span"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_2" Enable="1">
+						<WhenToConsider Role="46" ParentRole="">
+							<Attributes TagName="img"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="span" className="uir-field"/>
+								</Condition>
+							</Path>
+							<Path Path="PS">
+								<Condition Operator="simple">
+									<Attributes TagName="span"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_3" Enable="1">
+						<WhenToConsider Role="42" ParentRole="">
+							<Attributes TagName="input"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="div" className=" uir-field-wrapper uir-inline-tag"/>
+								</Condition>
+							</Path>
+							<Path Path="PS">
+								<Condition Operator="simple">
+									<Attributes TagName="span"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+				</TraverseLogic>
+			</LabelIdentifier>
+		</Rule>
+		<Rule Enable="1" DomainName="salesforce" QueryHeader="0" QueryTag="H1">
+			<RoleIdentifier>
+				<BasedOnTraverseLogic>
+					<Rule Enable="1" CurrentRole="44" ParentRole="">
+						<CurrentInfo>
+							<Condition TagName="|label|"/>
+						</CurrentInfo>
+						<TraversalInfo>
+							<Path Path="PR">
+								<Condition Operator="simple">
+									<Attributes TagName="td"/>
+								</Condition>
+							</Path>
+							<Path Path="NS">
+								<Condition Operator="simple">
+									<Attributes TagName="td"/>
+								</Condition>
+							</Path>
+							<Path Path="CH">
+								<Condition Operator="simple">
+									<Attributes TagName="input"/>
+								</Condition>
+							</Path>
+						</TraversalInfo>
+					</Rule>
+				</BasedOnTraverseLogic>
+			</RoleIdentifier>
+		</Rule>
+		<Rule Enable="1" DomainName="monday" QueryHeader="0" QueryTag="H1">
+			<RoleIdentifier>
+				<BasedOnAttributes>
+					<Rule Enable="1" CurrentRole="43" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="equals" className="ds-text-component text-center|ZGjMp eQ1qL|b_UcR SuLaE|vGaRc|QIePY"/>
+							<Condition Operator="contains" className="ev6bc"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="30" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="equals" className="|ds-title|"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="34" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="equals" className="ds-text-component"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="42" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="contains" role="gridcell"/>
+						</CurrentInfo>
+					</Rule>
+				</BasedOnAttributes>
+				<BasedOnTraverseLogic>
+					<Rule Enable="1" CurrentRole="43" ParentRole="">
+						<CurrentInfo>
+							<Condition TagName="|span|"/>
+						</CurrentInfo>
+						<TraversalInfo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="div" role="button"/>
+								</Condition>
+							</Path>
+						</TraversalInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="46" ParentRole="">
+						<CurrentInfo>
+							<Condition TagName="|div|"/>
+						</CurrentInfo>
+						<TraversalInfo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="div" id="dropdown-menu-id"/>
+								</Condition>
+							</Path>
+						</TraversalInfo>
+					</Rule>
+				</BasedOnTraverseLogic>
+			</RoleIdentifier>
+			<LabelIdentifier>
+				<TraverseLogic>
+					<Rule Id="TL_1" Enable="1">
+						<WhenToConsider Role="42" ParentRole="">
+							<Attributes TagName="span"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive" Check="contains">
+									<Attributes TagName="div" className="pulse-component-wrapper"/>
+								</Condition>
+							</Path>
+							<Path Path="PS">
+								<Condition Operator="recursive" Check="contains">
+									<Attributes TagName="div" className="group-header-wrapper resize-group-header-wrapper"/>
+								</Condition>
+							</Path>
+							<Path Path="CH">
+								<Condition Operator="simple">
+								</Condition>
+							</Path>
+							<Path Path="CH.1">
+								<Condition Operator="simple" Check="contains">
+									<Attributes TagName="div" className="group-header-component"/>
+								</Condition>
+							</Path>
+							<Path Path="CH">
+								<Condition Operator="simple">
+									<Attributes TagName="div" className="grid-floating-cells-row-component seperated-footer with-group-borders sticky-feature no-flex-grow"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+				</TraverseLogic>
+			</LabelIdentifier>
+		</Rule>
+		<Rule Enable="1" DomainName="atlassian" QueryHeader="0" QueryTag="H1">
+			<RoleIdentifier>
+				<BasedOnAttributes>
+					<Rule Enable="1" CurrentRole="34" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="equals" className="css-1npl3hl-option|_2lx21bp4 _1e0c1txw _1bsb1osq|_1e0c1txw _4cvr1h6o|_2lx21bp4 _1e0c1txw _1bsb1osq|_12ji1r31 _1qu2glyw _12y3idpf _1e0c1o8l _kqswh2mm|_2hwxu2gc _1e0c1txw|_1e0c1txw _4cvr1h6o|css-10w6d6m-option|css-1mwtrbu|css-rvpkhw-menu|css-13552d7|css-1av6i77|_1e0c1txw _vchhusvi _4cvr1h6o _2lx2vrvc|_11c82smr _1reo15vq _18m915vq _vwz4f6fq _1bto1l2s _o5721q9c _p12f1osq _2rko5n0m _19it11we _bfhk18uv _u5f31b66 _19bv1b66|"/>
+							<Condition Operator="contains" id="react-select-|react-select-129-option-1-0"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="46" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="equals" className="css-bxfvr9|css-1aq5lmf|css-1vrwmt7-control|_16jlkb7n _1o9zkb7n _i0dl1osq _1e0c1txw _1bsb1osq _4t3i1osq _2rkogqwt|css-hp03nt-control|css-1c8bys3-singleValue|_zulpu2gc _1e0c1txw _4cvr1h6o|css-1kgqf2i|_12ji1r31 _1qu2glyw _12y3idpf _1e0c1o8l _kqswh2mm|_1reo15vq _18m915vq _o5721q9c _1bto1l2s|_1reo15vq _18m915vq _syaz1r31 _lcxvglyw _s7n4yfq0 _vc881r31 _1bsbutpp _4t3iutpp|_1e0c1o8l _vchhusvi _1o9zidpf _vwz4utpp _y4ti1igz _bozg1mb9 _12va18uv _jcxd1r8n|css-qz58pn-indicatorContainer|css-6jtart|_16jlkb7n _1o9zkb7n _i0dl1wug _nd5l1sux _1mouv77o _195gv77o _1rjcv77o _1e0c1n7u _yv0e12qd _syaz1fxt _j8d6idpf _1av2idpf _1doyidpf _pfztidpf _uoe3idpf _1recidpf _70xridpf _1k96idpf _eq43idpf _1h9u1kw7 _ckog1yjy _1x651r31 _1nn4glyw _1rzeidpf _1yd8yh40 _aetr11ps _uy7x15vq _1qjlqvpr -Input|_16jlkb7n _1o9zkb7n _i0dlf1ug _1reo15vq _18m915vq _4cvr1h6o _1e0c11p5 _1n261g80 _8am5i4x0 _kqswh2mm _ca0qv77o _u5f312x7 _n3tdv77o _19bv12x7 -ValueContainer|"/>
+							<Condition Operator="contains" className="fabric-user-picker__|issue-link-type__|select-customfield_|affected-services-picker__|components-field-select__|value-container css-|indicatorContainer|"/>
+							<Condition Operator="contains" className="select-customfield_10082"/>
+							<Condition Operator="equals" aria-label="open"/>
+							<Condition Operator="contains" id="issue-create.ui.modal.create-form"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="30" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="equals" className="_1r04ze3t _kqswstnw"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="37" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="equals" className="css-1y6im1a"/>
+						</CurrentInfo>
+					</Rule>
+				</BasedOnAttributes>
+				<BasedOnTraverseLogic>
+					<Rule Enable="1" CurrentRole="46" ParentRole="">
+						<CurrentInfo>
+							<Condition TagName="|div|"/>
+						</CurrentInfo>
+						<TraversalInfo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="div" className="css-1vrwmt7-control"/>
+								</Condition>
+							</Path>
+						</TraversalInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="34" ParentRole="">
+						<CurrentInfo>
+							<Condition TagName="|img|"/>
+						</CurrentInfo>
+						<TraversalInfo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="div" role="option"/>
+								</Condition>
+							</Path>
+						</TraversalInfo>
+					</Rule>
+				</BasedOnTraverseLogic>
+			</RoleIdentifier>
+			<LabelIdentifier>
+				<TraverseLogic>
+					<Rule Id="TL_1" Enable="1">
+						<WhenToConsider Role="34" ParentRole="">
+							<Attributes TagName="div" class="issue-field-select-base.ui.format-option-label.c-label"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive" Check="equals">
+									<Attributes TagName="div" class="_1pfhu2gc"/>
+								</Condition>
+							</Path>
+							<Path Path="CH">
+								<Condition Operator="simple" Check="equals">
+									<Attributes TagName="label" class="_11c8dcr7 _1e0c1o8l _syaz1gjq _k48pmoej _6rth1b66 _1pfhze3t"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_2" Enable="1">
+						<WhenToConsider Role="46" ParentRole="">
+							<Attributes TagName="span" class="_1e0c1o8l _vchhusvi _1o9zidpf _vwz4utpp _y4ti1igz _bozg1mb9 _12va18uv _jcxd1r8n"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive" Check="equals">
+									<Attributes TagName="div" class="_1pfhu2gc"/>
+								</Condition>
+							</Path>
+							<Path Path="CH">
+								<Condition Operator="simple" Check="equals">
+									<Attributes TagName="label" class="_11c8dcr7 _1e0c1o8l _syaz1gjq _k48pmoej _6rth1b66 _1pfhze3t"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_3" Enable="1">
+						<WhenToConsider Role="43" ParentRole="">
+							<Attributes TagName="span" class="_1e0c1o8l _vchhusvi _1o9zidpf _vwz4kb7n _y4ti1igz _bozg1mb9 _12va18uv _jcxd1r8n"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive" Check="equals">
+									<Attributes TagName="button" data-testid="atlassian-navigation--create-button"/>
+								</Condition>
+							</Path>
+							<Path Path="CH.1">
+								<Condition Operator="recursive" Check="equals">
+									<Attributes TagName="span" class="_v564g17y _1reo15vq _18m915vq _16jlkb7n _1o9zkb7n _1bto1l2s _o5721q9c"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="innerText"/>
+						</WhatToCall>
+					</Rule>
+				</TraverseLogic>
+			</LabelIdentifier>
+		</Rule>
+		<Rule Enable="1" DomainName="chatgpt" QueryHeader="0" QueryTag="H1">
+			<RoleIdentifier>
+				<BasedOnAttributes>
+					<Rule Enable="1" CurrentRole="42" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="equals" id="prompt-textarea"/>
+						</CurrentInfo>
+					</Rule>
+				</BasedOnAttributes>
+			</RoleIdentifier>
+		</Rule>
+		<Rule Enable="1" DomainName="dynamics" QueryHeader="0" QueryTag="H1">
+			<RoleIdentifier>
+				<BasedOnAttributes>
+					<Rule Enable="1" CurrentRole="42" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="contains" id="Dropdown"/>
+							<Condition Operator="contains" className="symbolFont SearchButton-symbol"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="86" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="contains" id="|relatedChevronIcon_related_tab|container_related_tab|"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="37" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="equals" role="tab"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="12" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="contains" class="MenuItem"/>
+						</CurrentInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="82" ParentRole="">
+						<CurrentInfo>
+							<Condition Operator="contains" class="symbolFont"/>
+						</CurrentInfo>
+					</Rule>
+				</BasedOnAttributes>
+				<BasedOnTraverseLogic>
+					<Rule Enable="1" CurrentRole="37" ParentRole="">
+						<CurrentInfo>
+							<Condition TagName="|span|svg|"/>
+						</CurrentInfo>
+						<TraversalInfo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="div" role="tab"/>
+								</Condition>
+							</Path>
+						</TraversalInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="43" ParentRole="">
+						<CurrentInfo>
+							<Condition TagName="|img|span|"/>
+						</CurrentInfo>
+						<TraversalInfo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="button"/>
+								</Condition>
+							</Path>
+						</TraversalInfo>
+					</Rule>
+					<Rule Enable="1" CurrentRole="46" ParentRole="">
+						<CurrentInfo>
+							<Condition TagName="|path|"/>
+						</CurrentInfo>
+						<TraversalInfo>
+							<Path Path="PR">
+								<Condition Operator="recursive">
+									<Attributes TagName="button" role="combobox"/>
+								</Condition>
+							</Path>
+						</TraversalInfo>
+					</Rule>
+				</BasedOnTraverseLogic>
+			</RoleIdentifier>
+			<LabelIdentifier rolesforrectandielogic="42|44|45|46|33|34|30|10|40|82|43|37"> 
+				<TraverseLogic>
+					<Rule Id="TL_1" Enable="1">
+						<WhenToConsider Role="30" ParentRole="">
+							<Attributes TagName="span" role="presentation"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive" Check="equals">
+									<Attributes TagName="div" role="gridcell"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="col-id"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_2" Enable="1">
+						<WhenToConsider Role="10" ParentRole="">
+							<Attributes TagName="div" role="ms-TooltipHost root"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive" Check="equals">
+									<Attributes TagName="div" role="gridcell"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="col-id"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_3" Enable="1">
+						<WhenToConsider Role="40" ParentRole="">
+							<Attributes TagName="img" class="ms-Image"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive" Check="equals">
+									<Attributes TagName="div" role="gridcell"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="col-id"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_4" Enable="1">
+						<WhenToConsider Role="40" ParentRole="">
+							<Attributes TagName="img"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive" Check="equals">
+									<Attributes TagName="button"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="aria-label|title|id"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_5" Enable="1">
+						<WhenToConsider>
+							<Attributes TagName="svg"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive" Check="equals">
+									<Attributes TagName="button"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="aria-label|title|id"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_6" Enable="1">
+						<WhenToConsider Role="82" ParentRole="">
+							<Attributes TagName="span"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive" Check="equals">
+									<Attributes TagName="button"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="aria-label|title|id"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_7" Enable="1">
+						<WhenToConsider Role="10" ParentRole="">
+							<Attributes TagName="div" class="pa-g pa-w pa-hf pa-ha pa-hg pa-hh pa-hi pa-hj pa-hk pa-o pa-hl pa-bq pa-hm pa-aj pa-ah pa-cd pa-ae pa-hn pa-ho pa-hp pa-hq pa-hr pa-hs pa-ht pa-hu pa-hv pa-hw pa-hx pa-hy pa-hz pa-ia pa-ib pa-ic pa-id pa-ie pa-if pa-ig pa-ih pa-ii pa-ij pa-ik pa-il pa-im pa-in pa-io pa-ip pa-iq pa-ir flexbox"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="CH">
+								<Condition Operator="simple" Check="equals">
+									<Attributes TagName="div"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="aria-label|title|id"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_8" Enable="1">
+						<WhenToConsider Role="43" ParentRole="">
+							<Attributes TagName="div"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive" Check="equals">
+									<Attributes TagName="button"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="aria-label|title|id"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_9" Enable="1">
+						<WhenToConsider Role="37" ParentRole="">
+							<Attributes TagName="span" class="pa-ei pa-gd pa-jf pa-bv pa-k pa-bt pa-cn pa-jg pa-ej pa-jh pa-ji "/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive" Check="equals">
+									<Attributes TagName="div" role="tab"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="aria-label|title|id"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_10" Enable="1">
+						<WhenToConsider Role="37" ParentRole="">
+							<Attributes TagName="div" class="pa-g pa-bm pa-h pa-k flexbox"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="simple" Check="equals">
+									<Attributes TagName="div"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="aria-label|title|id"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_11" Enable="1">
+						<WhenToConsider Role="10" ParentRole="">
+							<Attributes TagName="div"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive" Check="equals">
+									<Attributes TagName="li" role="treeitem"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="aria-label|title|id"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_12" Enable="1">
+						<WhenToConsider Role="10" ParentRole="">
+							<Attributes TagName="span"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive" Check="equals">
+									<Attributes TagName="div" role="tab"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="aria-label|title|id"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_13" Enable="1">
+						<WhenToConsider Role="46" ParentRole="">
+							<Attributes TagName="div"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="simple" Check="equals">
+									<Attributes TagName="button" role="combobox"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="aria-label|title|id"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_14" Enable="1">
+						<WhenToConsider Role="82" ParentRole="">
+							<Attributes TagName="path"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive" Check="equals">
+									<Attributes TagName="div" role="tab"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="aria-label|title|id"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_15" Enable="1">
+						<WhenToConsider Role="10" ParentRole="">
+							<Attributes TagName="span"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive" Check="equals">
+									<Attributes TagName="a"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="aria-label|title|id"/>
+						</WhatToCall>
+					</Rule>
+					<Rule Id="TL_16" Enable="1">
+						<WhenToConsider Role="82" ParentRole="">
+							<Attributes TagName="span"/>
+						</WhenToConsider>
+						<WhereToGo>
+							<Path Path="PR">
+								<Condition Operator="recursive" Check="equals">
+									<Attributes TagName="a"/>
+								</Condition>
+							</Path>
+						</WhereToGo>
+						<WhatToCall>
+							<Method Name="aria-label|title|id"/>
+						</WhatToCall>
+					</Rule>
+				</TraverseLogic>
+				<AttributesForControlName>
+					<Priority>attributes</Priority>
+					<Attributes>aria-label|placeholder|title</Attributes>
+				</AttributesForControlName>
+			</LabelIdentifier>
+		</Rule>
+	</Custom>
+</IEFilters>

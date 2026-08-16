@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>PowerApps example — Epiplex IE Rules Generator test page</title>
+  <!--
+    Example page for the Epiplex IE Rules Generator.
+    PowerApps model-driven / canvas apps render appmagic-* classes.
+    The extension maps: appmagic-button → Button (43), appmagic-combobox →
+    Dropdown (46), appmagic-checkbox → Checkbox (44), appmagic-text →
+    Text box (42), appmagic-datepicker → Date control (92).
+  -->
+</head>
+<body>
+  <div id="powerapps-host" class="appmagic-app">
+    <h1 class="appmagic-title">Expense report</h1>
+
+    <!-- Text box -->
+    <div class="appmagic-textbox-control">
+      <label for="employeeName" class="appmagic-label">Employee name</label>
+      <div class="appmagic-text-input appmagic-text">
+        <input id="employeeName" type="text" aria-label="Employee name" />
+      </div>
+    </div>
+
+    <!-- Date picker -->
+    <div class="appmagic-datepicker-control">
+      <label for="expenseDate" class="appmagic-label">Expense date</label>
+      <div class="appmagic-datepicker appmagic-datepicker-input">
+        <input id="expenseDate" type="text" aria-label="Expense date" placeholder="Select date" />
+        <span class="appmagic-datepicker-icon">📅</span>
+      </div>
+    </div>
+
+    <!-- Dropdown -->
+    <div class="appmagic-combobox-control">
+      <label for="category" class="appmagic-label">Category</label>
+      <div class="appmagic-combobox" role="combobox" aria-haspopup="listbox">
+        <input id="category" type="text" role="textbox" aria-label="Category" />
+        <div class="appmagic-combobox-listbox" role="listbox">
+          <div class="appmagic-combobox-option" role="option">Travel</div>
+          <div class="appmagic-combobox-option" role="option">Meals</div>
+          <div class="appmagic-combobox-option" role="option">Software</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Checkbox -->
+    <div class="appmagic-checkbox-control">
+      <div class="appmagic-checkbox" role="checkbox" aria-checked="false">
+        <input type="checkbox" id="receipt" aria-label="Receipt attached" />
+        <span class="appmagic-checkbox-label">Receipt attached</span>
+      </div>
+    </div>
+
+    <!-- Radio -->
+    <div class="appmagic-radio-control">
+      <span class="appmagic-radio"><input type="radio" name="approval" value="auto" aria-label="Auto approve" /></span>
+      <span class="appmagic-radio"><input type="radio" name="approval" value="manual" aria-label="Manual approval" /></span>
+    </div>
+
+    <!-- Buttons -->
+    <div class="appmagic-buttons">
+      <button class="appmagic-button appmagic-button-primary" id="btnSubmit">
+        <span class="appmagic-button-label">Submit</span>
+      </button>
+      <button class="appmagic-button" id="btnDraft">
+        <span class="appmagic-button-label">Save draft</span>
+      </button>
+    </div>
+
+    <!-- Grid (table) -->
+    <table class="appmagic-grid">
+      <tr><th>Date</th><th>Category</th><th>Amount</th></tr>
+      <tr><td>2025-01-10</td><td>Travel</td><td>240.00</td></tr>
+      <tr><td>2025-01-12</td><td>Meals</td><td>56.80</td></tr>
+    </table>
+  </div>
+</body>
+</html>
