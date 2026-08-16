@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Build output (full copy + test bundles)
+dist/
+dist-test/
+
+# Temporary verification artifacts
+tmp/
+
+# Bundled extension outputs — generated from src/ by `npm run build`
+background.js
+content.js
+popup.js
+
+# Harness / agent state
+.harness/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.log
